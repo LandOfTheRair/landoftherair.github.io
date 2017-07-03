@@ -1,0 +1,31 @@
+---
+title: FAQ
+permalink: /docs/faq/
+---
+
+###### How does gender affect my character?
+
+It is purely visual.
+
+###### How does allegiance affect my character?
+
+Your allegiance determines your stats, what factions like and dislike you, and some other small details.
+
+###### What does each attribute do?
+
+* STR (Strength) is used when attacking and dealing damage. Primarily, it determines how much damage you do.
+* DEX (Dexterity) is used when attacking enemies. Primarily, it determines how well you hit enemies.
+* AGI (Agility) is used when getting attacked. Primarily, it determines how well you dodge.
+* INT (Intelligence) is used by Mage-like classes when dealing damage. It also determines how much MP you get per level for Mage-like classes.
+* WIS (Wisdom) is used by Healer-like classes when dealing damage or healing. It also determines how much MP you get per level for Healer-like classes.
+* WIL (Will) is used when magic attacks are cast on you. It determines if you will take less damage from magical attacks.
+* CON (Constitution) is used to determine how much HP you get per level. If it is too low, bad things can happen. It goes down each time you die and restore.
+* CHA (Charisma) can give you lower shop prices, as well as better sell prices.
+* LUK (Luck) is used for finding items, as well as other small details.
+
+###### What are the base classes?
+
+* The Mage primarily uses magical weapons, shortswords, and offensive magic aligned with the elements of the world.
+* The Healer primarily uses maces, staves, and defensive and healing magic.
+* The Thief primarily uses daggers, throwing weapons, and thievery to get around the world.
+* The Warrior has a diverse weapon set, consisting of martial weapons, axes, polearms, swords, greatswords, and bows.

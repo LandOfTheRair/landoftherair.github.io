@@ -1,0 +1,51 @@
+# Site settings
+title: Land of the Rair
+email: contact@rair.land
+description: >
+  A retro MUD in the modern era.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://rair.land # the base hostname & protocol for your site
+git_address: https://github.com/landoftherair/landoftherair
+git_edit_address: https://github.com/landoftherair/landoftherair.github.io/blob/master
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: America/Chicago
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
