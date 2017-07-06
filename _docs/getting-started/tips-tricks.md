@@ -18,3 +18,4 @@ There are a lot of things you should be aware of when playing Land of the Rair. 
 * You can level up by training with your class trainer.
 * You can gain proficiency with particular weapons by using them repeatedly.
 * Read your Log frequently. There are lots of hidden areas in the game only made known through the environment.
+* NPCs will often have very visible dialog options, ie, if an NPC named "Talker" says "Hey, TALK to me!" you would say `tal, talk` to open new dialog options.
