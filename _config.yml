@@ -11,6 +11,8 @@ fb_address: https://facebook.com/landoftherair
 tw_address: https://twitter.com/landoftherair
 git_edit_address: https://github.com/landoftherair/landoftherair.github.io/blob/master
 
+google_analytics_tracking: "UA-102182053-2"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
