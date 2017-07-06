@@ -29,3 +29,7 @@ Your allegiance determines your stats, what factions like and dislike you, and s
 * The Healer primarily uses maces, staves, and defensive and healing magic.
 * The Thief primarily uses daggers, throwing weapons, and thievery to get around the world.
 * The Warrior has a diverse weapon set, consisting of martial weapons, axes, polearms, swords, greatswords, and bows.
+
+###### What are combat adds?
+
+Combat adds are expressed in terms of offense/defense. For example, if you have combat adds of 1/2, that means you have an offensive combat bonus of 1, and a defensive combat bonus of 2.
