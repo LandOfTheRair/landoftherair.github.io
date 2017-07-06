@@ -3,6 +3,10 @@ title: FAQ
 permalink: /docs/faq/
 ---
 
+###### If this game is open source, can't I cheat all the quests?
+
+Yes. I ask that if you do that, you keep it to yourself. You'll be taking a lot of the fun of exploration out if you do this, and possibly for more people than yourself. This game is very much about exploration and seeing the world that was built. If this becomes too rampant of a problem, game data will be made private.
+
 ###### How does gender affect my character?
 
 It is purely visual.
