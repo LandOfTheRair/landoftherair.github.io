@@ -37,3 +37,7 @@ Your allegiance determines your stats, what factions like and dislike you, and s
 ###### What are combat adds?
 
 Combat adds are expressed in terms of offense/defense. For example, if you have combat adds of 1/2, that means you have an offensive combat bonus of 1, and a defensive combat bonus of 2.
+
+###### How do I level up?
+
+When you think you have enough experience, head to your class trainer and "Train" with them. You'll gain levels based on how much experience you have stored up.
