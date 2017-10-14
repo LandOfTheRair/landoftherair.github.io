@@ -20,4 +20,5 @@ There are a lot of things you should be aware of when playing Land of the Rair. 
 * Read your Log frequently. There are lots of hidden areas in the game only made known through the environment.
 * NPCs will often have very visible dialog options, ie, if an NPC named "Talker" says "Hey, TALK to me!" you would say `tal, talk` to open new dialog options.
 * NPCs with a green tag are friendly, and will never fight you. Gray tags will attack you if you attack them, and red tags are hostile to you and will attack you on sight.
+* If you find a gem, head on over to the Encruster and put it in your gear. It probably has some nice benefits!
 * Check out the [wiki](https://github.com/LandOfTheRair/landoftherair/wiki) for more in-depth information on the game!
