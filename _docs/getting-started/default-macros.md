@@ -7,6 +7,12 @@ The game has a lot of internal macros that you might make use of while building 
 
 Any time you see `<target>` that means you can use a `targetish` when using the macro. A `targetish` is something that will identify the creature. It can be either the UUID (this is what the UI uses), or a part of the creatures name. So, if you have a creature named `Adacen`, you could use either `a`, `ada`, or `adacen` (or many others). The more specific you are, the better chance you have of not targetting something with a similar name on your screen.
 
+**Beware**: Macros will not work when:
+
+* The bank window is open
+* The command line window is active
+* Any modal is open (options, macro group editor, macro editor, etc)
+
 # Macros
 
 ## Default Macros
