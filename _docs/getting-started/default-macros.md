@@ -90,7 +90,7 @@ Macro | Syntax | Description
 
 ## UI Interaction Macros
 
-UI interaction macros come in a lot of forms, mostly they're for moving things around, like belt to sack, equipment to ground, etc. There are a lot of them.
+UI interaction macros come in a lot of forms, mostly they're for moving things around, like belt to sack, equipment to ground, etc. There are a lot of them, including these commonly used ones:
 
 Macro | Syntax | Description
 ----- | ------ | -----------
@@ -115,5 +115,5 @@ Macro | Syntax | Description
 
 There are a lot of interesting combinations you can work with while making macros in Land of the Rair. Some of my favorites are these:
 
-* `~LTG; steal` (drop left item on ground, then steal)
-* `~LTG; mug` (drop left item on ground, then mug)
+* `~LtG; steal` (drop left item on ground, then steal)
+* `~LtG; mug` (drop left item on ground, then mug)
