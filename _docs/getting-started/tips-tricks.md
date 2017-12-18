@@ -23,4 +23,3 @@ There are a lot of things you should be aware of when playing Land of the Rair. 
 * If you find a gem, head on over to the Encruster and put it in your gear. It probably has some nice benefits!
 * You can right-click items to quickly locker and sell them.
 * You can click on stairs then quickly right click to ascend or descend.
-* Check out the [wiki](https://github.com/LandOfTheRair/landoftherair/wiki) for more in-depth information on the game!
