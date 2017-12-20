@@ -9,3 +9,4 @@ Land of the Rair has some default keybinds that might be helpful to know:
 * Escape: Clear command buffer
 * Right Click (while Wardrobe open): Quickly add or remove item from Wardrobe (to sack only)
 * Right Click (while Shop open): Quickly sell or buy item (to sack only)
+* Right Click (from Sack): Quickly drop item
