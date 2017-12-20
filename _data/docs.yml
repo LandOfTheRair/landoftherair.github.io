@@ -2,10 +2,11 @@
   docs:
   - home
   - tips-tricks
+  - faq
   - default-macros
   - default-keybinds
   - party-information
-  - faq
+  - weapon-information
 
 - title: Other
   docs:
