@@ -7,6 +7,11 @@
   - default-keybinds
   - party-information
   - weapon-information
+  
+- title: Tradeskills
+  docs:
+  - alchemy
+  - spellforging
 
 - title: Other
   docs:
