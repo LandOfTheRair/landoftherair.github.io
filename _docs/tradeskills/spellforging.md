@@ -10,3 +10,7 @@ To disenchant an item, just place any valid equipment item on the left-most side
 When you get to 100 dust, you can make an Enchantment Brick. You can use these in combination with any item to enchant them, increasing their damage. If you enchant using an Owts brick, it will also increase their offensive and defensive capabilities. Items are hard-capped at +5, and every few skills (counting both spellforging and conjuration) your success chance will increase.
 
 You can also attach traits to equipment using rune scrolls. These are semi-rare. An item can have a maximum of one trait on it at any time, and attaching a new one will overwrite the old one. Your success chance increases only with your spellforging skill.
+
+### Useful Macros
+
+* Disenchant: `~StT 0 spellforging 0 $spellforging; disenchant $spellforging` - put the item from the first sack slot (bottom right) into the disenchant slot, then disenchant it
