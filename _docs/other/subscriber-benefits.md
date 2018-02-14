@@ -13,5 +13,5 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * +5 Potion ounces from every alchemist
 * +5000 Repair level from every smith
 * -25% HP/MP doc cost
-* Access to a subscriber only hub with teleports to each town, vendors, and more.
+* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more.
 * A monthly platinum bonus to buy more game features with!
