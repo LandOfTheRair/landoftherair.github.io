@@ -16,7 +16,7 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more.
 * A monthly platinum bonus to buy more game features with!
 
-Are you interested in trialling a subscription before you buy? Contact a GM to set up a trial. The trial subscription contains the following differences from the above (everything is reduced by 80%):
+Are you interested in trialling a subscription before you buy? Contact a GM to set up a 30-day trial. The trial subscription contains the following differences from the above (everything is reduced by 80%):
 
 * +5% XP Gain
 * +5% Skill/Tradeskill gain
