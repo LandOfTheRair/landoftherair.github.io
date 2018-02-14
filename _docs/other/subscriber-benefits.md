@@ -15,6 +15,7 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * -25% HP/MP doc cost
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more.
 * A monthly platinum bonus to buy more game features with!
+* A discord role and subscriber only channel (please contact a GM to sort this out, since it is not currently automated).
 
 Are you interested in trialling a subscription before you buy? Contact a GM to set up a 30-day trial. The trial subscription contains the following differences from the above (everything is reduced by 80%):
 
