@@ -21,7 +21,7 @@ Are you interested in trialling a subscription before you buy? Contact a GM to s
 
 * +5% XP Gain
 * +5% Skill/Tradeskill gain
-* +2% Party XP gain
+* +5% Party XP gain
 * 5% Faster trait point gain
 * +2 Action Queue Items (the number of commands you can queue up in game)
 * +1 Potion ounce from every alchemist
