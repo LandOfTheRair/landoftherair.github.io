@@ -13,4 +13,6 @@ As warriors level up, they'll gain a lot of hp (compared to other classes), and 
 
 # Useful Commands
 
-At skill 7 (11 for any other class), you learn to `charge` with any weapon. This lets you run towards a target and hit it, instead of having to be near it.
+* `charge` - at skill 7 (11 for any other class), you learn to `charge` with any weapon. This lets you run towards a target and hit it, instead of having to be near it.
+
+* `throw` - you can `throw` any item at a target. Some weapons return when you throw them, making them excellent candidates for ranged combat.
