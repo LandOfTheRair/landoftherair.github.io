@@ -3,15 +3,13 @@ title: Thief
 permalink: /docs/thief/
 ---
 
-# The Thief
-
 Thieves are probably the trickiest class to get started on, due to the variety of skills they have to start out. Thieves are oriented towards being damage dealers and they excel at hiding in the shadows. They also learn some spells (shared with mages and healers) but due to the thiefs nature, they can only be cast on the thief himself and not shared. The thief trainer can teach you some new spells once in a while.
 
 Thieves can use any weapon, but the best weapons, in general, are those that are easily concealed. This would mean you want a dagger, shortsword, or even a longsword. Halberds, greatswords, and other large weapons carry penalties to your ability to hide. They can backstab enemies to do massive damage, as well as leaving damage over time spells on their enemies. When they cast spells, they use their hp instead of mp.
 
 When the thief levels up, it will gain some hp. Every few levels, it will also gain a bonus to hiding in the shadows.
 
-# Useful Commands
+## Useful Commands
 
 * `throw` - you can `throw` any item at a target. Some weapons return when you throw them, making them excellent candidates for ranged combat.
 
