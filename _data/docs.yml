@@ -8,6 +8,13 @@
   - party-information
   - weapon-information
   
+- title: Classes
+  docs:
+  - mage
+  - thief
+  - healer
+  - warrior
+ 
 - title: Tradeskills
   docs:
   - alchemy
