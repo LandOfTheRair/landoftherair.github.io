@@ -52,4 +52,5 @@ I want to take a page to talk about the differences. Some will be small and inco
 * Different classes have different internal growths. For example, Warriors gain +1/1 every 5 levels.
 * Better GM (sysop) tools. Things can be created from scratch, duped, fixed etc as necessary.
 * Items with random stats have a star rating (1-3) that shows how good they are.
+* Obtainable resources, instead of everything dropping from random monsters.
 * Playable on web or desktop.
