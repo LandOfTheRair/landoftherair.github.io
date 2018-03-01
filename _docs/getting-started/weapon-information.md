@@ -87,7 +87,7 @@ Thrown skill is exercised any time you throw an item. Some items, such as some s
 Thrown weapons are primarily used by Thieves.
 
 ### Magical Weapons
-##### _Features: Wands_
+##### _Features: Wands, Totems_
 
 Magical weapons generally occupy one hand, and carry an effect when they hit their target. They are often rare, but effective combat weapons.
 
