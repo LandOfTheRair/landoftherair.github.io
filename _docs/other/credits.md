@@ -9,7 +9,6 @@ Thanks to all of the following for the creation of this game:
 * @gamestdio - Colyseus - the room-based implementation for the game server
 * Game Icons - gameicons.net - Macro and other icons
 * Brad Lineberger - Kingdom of Drakkar - game inspiration and art (thank you!)
-* cjepson - some code contributions
 * Antti Luode - music
   * Bustrip (Dungeon)
   * Back In The Country (Wilderness)
