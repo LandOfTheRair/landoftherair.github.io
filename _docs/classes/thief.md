@@ -7,6 +7,8 @@ Thieves are probably the trickiest class to get started on, due to the variety o
 
 Thieves can use any weapon, but the best weapons, in general, are those that are easily concealed. This would mean you want a dagger, shortsword, or even a longsword. Halberds, greatswords, and other large weapons carry large penalties to your ability to hide. They can backstab enemies to do massive damage, as well as leaving damage over time spells on their enemies. When they cast spells, they use their hp instead of mp.
 
+Thieves passively do more damage and can trigger deadly combos while hidden.
+
 When the thief levels up, it will gain some hp. Every few levels, it will also gain a bonus to hiding in the shadows.
 
 ## Useful Commands
