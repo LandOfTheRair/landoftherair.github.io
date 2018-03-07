@@ -25,6 +25,8 @@ When the thief levels up, it will gain some hp. Every few levels, it will also g
 
 * `mug` - learned at skill 7, mug is just like you'd expect. It's a combination of `charge` and `steal`, where you run to a target, hit it to do some damage, and also steal from it. You need an open hand and a one handed weapon to do it.
 
+* `assassinate` - learned at skill 13. Assassinate requires a lot of skill, and does checks based on your thievery skill and weapon skill. It will operate similar to backstab and mug where you'll run at the target, but where it's different is how it does damage: if you exceed the targets CON with your skill and your level is 7 more than theirs, they die. This does not work on "lair" creatures.
+
 * `set` - set a trap at your current location. In the thieve's guild in Rylt, you can buy traps to place. They generally do massive damage, but are one-time use items. An unsuspecting foe that steps atop it will find themselves in a precarious situation.
 
 * `disarm` - on top of setting traps, you can also disarm them. Of course, if you don't see the trap, you can't disarm it - and that's dependent on the theif that sets it. Some enemies will set traps, and stepping on them can be a costly mistake!
