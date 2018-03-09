@@ -5,7 +5,7 @@ permalink: /docs/metalworking/
 
 Metalworking is a tradeskill in Land of the Rair, defined by it's ability to create item molds, ore ingots, and upgrade items. To do metalworking, find any smith. You must be a warrior to do metalworking.
 
-When you get to 100 ore, you can make an Ingot. These have multiple uses, which span from enchanting an item to creating an entirely new one.
+When you get to 50 ore, you can make an Ingot. These have multiple uses, which span from enchanting an item to creating an entirely new one.
 
 You can create entirely new items by making a mold of that item and using an ingot. To make an armor mold, you first need to have a valid combination of items, which will generally consist of a scalemail + reagent or a breastplate + reagent. Crafting a weapon is the same. You'll need a valid base item and a reagent.
 
