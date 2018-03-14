@@ -11,7 +11,7 @@ Thieves passively do more damage and can trigger deadly combos while hidden.
 
 When the thief levels up, it will gain some hp. Every few levels, it will also gain a bonus to hiding in the shadows.
 
-## Useful Commands
+### Useful Commands
 
 * `throw` - you can `throw` any item at a target. Some weapons return when you throw them, making them excellent candidates for ranged combat.
 
