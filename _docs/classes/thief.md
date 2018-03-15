@@ -13,6 +13,8 @@ When the thief levels up, it will gain some hp. Every few levels, it will also g
 
 ### Useful Commands
 
+* `apply` - you can `apply` any thievery-store bottle to yourself to cast that effect when striking with a weapon.
+
 * `throw` - you can `throw` any item at a target. Some weapons return when you throw them, making them excellent candidates for ranged combat.
 
 * `hide` - this is what gets you going. Hiding will allow you to hide near any wall or tree to move around unnoticed by the world. Beware, just because you're hidden doesn't mean that nothing can see you - depending on how far away you are, and how skilled of a thief you are, your ability to hide varies!
