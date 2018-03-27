@@ -33,6 +33,7 @@ Macro | Syntax | Description
 `show stats`          | `show stats <all>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics.
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
+`break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
 `.`                   | | Repeat the last command.
 
 ## Emotes
