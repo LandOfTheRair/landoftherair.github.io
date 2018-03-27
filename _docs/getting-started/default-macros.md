@@ -30,7 +30,7 @@ Macro | Syntax | Description
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
 `close`               | `close <dir>` | Close the door either N, S, E, or W from you.
 `write`               | `write <message>` | While holding an ink pot and an empty scroll, you can add your own message to the scroll.
-`show stats`          | | Get a listing of all of your stats.
+`show stats`          | `show stats <all>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics.
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
 `.`                   | | Repeat the last command.
