@@ -13,8 +13,6 @@ When the thief levels up, it will gain some hp. Every few levels, it will also g
 
 ### Useful Commands
 
-* `apply` - you can `apply` any thievery-store bottle to yourself to cast that effect when striking with a weapon.
-
 * `throw` - you can `throw` any item at a target. Some weapons return when you throw them, making them excellent candidates for ranged combat.
 
 * `hide` - this is what gets you going. Hiding will allow you to hide near any wall or tree to move around unnoticed by the world. Beware, just because you're hidden doesn't mean that nothing can see you - depending on how far away you are, and how skilled of a thief you are, your ability to hide varies!
@@ -26,9 +24,3 @@ When the thief levels up, it will gain some hp. Every few levels, it will also g
 * `backstab` - learned at skill 3, backstab will be your bread and butter. Anything that you would have the element of surprise on while hidden is a target (the element of surprise means that they can't see you). You'll charge towards your target and do massive damage if you hit.
 
 * `mug` - learned at skill 7, mug is just like you'd expect. It's a combination of `charge` and `steal`, where you run to a target, hit it to do some damage, and also steal from it. You need an open hand and a one handed weapon to do it.
-
-* `assassinate` - learned at skill 13. Assassinate requires a lot of skill, and does checks based on your thievery skill and weapon skill. It will operate similar to backstab and mug where you'll run at the target, but where it's different is how it does damage: if you exceed the targets CON with your skill and your level is 7 more than theirs, they die. This does not work on "lair" creatures.
-
-* `set` - set a trap at your current location. In the thieve's guild in Rylt, you can buy traps to place. They generally do massive damage, but are one-time use items. An unsuspecting foe that steps atop it will find themselves in a precarious situation.
-
-* `disarm` - on top of setting traps, you can also disarm them. Of course, if you don't see the trap, you can't disarm it - and that's dependent on the theif that sets it. Some enemies will set traps, and stepping on them can be a costly mistake!
