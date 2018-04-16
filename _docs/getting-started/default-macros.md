@@ -63,6 +63,8 @@ Macro | Syntax | Description
 `~move`         | `~move <x> <y>` | Move X tiles and Y tiles.
 `~search`       | | Search the corpses on the ground.
 `~look`         | | Look at the ground, not searching the corpses.
+`~wield`        | `~wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand.
+`~sheathe`      | `~sheathe <left|right>` | Put the item in your left or right hand into your belt.
 
 ## Class Skill Macros
 
