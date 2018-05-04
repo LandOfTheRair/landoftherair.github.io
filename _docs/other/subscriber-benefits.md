@@ -13,7 +13,7 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * +5000 Repair level from every smith
 * -25% HP/MP doc cost
 * +25 market board listing slots
-* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more.
+* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), cheaper market board taxes, and more.
 * 500 platinum per month of subscription!
 * A discord role and subscriber only channel (please contact a GM to sort this out, since it is not currently automated).
 
