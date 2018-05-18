@@ -14,3 +14,4 @@ You can also attach traits to equipment using rune scrolls. These are semi-rare.
 ### Useful Macros
 
 * Disenchant: `~StT 0 spellforging 0 $spellforging; disenchant $spellforging` - put the item from the first sack slot (bottom right) into the disenchant slot, then disenchant it
+* Enchant: `~RtT spellforging 0 $spellforging;~StT 0 spellforging 1 $spellforging;enchant $spellforging;~TtR spellforging 2 $spellforging` - move item in right hand into enchant item slot, move scroll from bottom of sack into reagent, enchant, then move the item back into the right hand
