@@ -13,7 +13,7 @@ Longswords fit in one hand (the right hand), have average offensive abilities, a
 Longswords are typically used by melee weapon users, such as Fighters.
 
 ### Two-Handed Swords
-##### _Features: Greatswords (and to a lesser extent: Greatmaces, Greataxes, Halberds, and Longbows_
+##### _Features: Greatswords (and to a lesser extent: Greatmaces, Greataxes, Halberds, and Longbows)_
 
 Two-Handed swords, such as greatswords, require both hands to use. They have pretty good offensive capabilities, good damage, and a low variance in bonus damage.
 
