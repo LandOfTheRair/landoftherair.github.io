@@ -7,6 +7,7 @@ There are a lot of things you should be aware of when playing Land of the Rair. 
 
 
 * When you die, use the `restore` macro to come back to life!
+* If you prefix a command with `#`, it will always be run as a command, no matter if you're in command or chat mode!
 * When you die, you'll drop the items you're holding. Be careful and remember where you are!
 * If you get killed by a "lair" creature, you will lose all of your gear and have to retrieve it from their lair. You should exercise caution when exploring. Most lairs will be marked in obvious ways!
 * Use the bank often, just in case!
