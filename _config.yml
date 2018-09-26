@@ -47,7 +47,19 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: download
+    type: download
+  values:
+    layout: default
+    sectionid: download
+    seo:
+      type: "WebPage"
+
 collections:
+  download:
+    permalink: /download
+    output: true
   docs:
     permalink: /:collection/:path/
     output: true
