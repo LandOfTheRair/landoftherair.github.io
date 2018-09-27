@@ -5,7 +5,7 @@ permalink: /docs/tips-tricks/
 
 There are a lot of things you should be aware of when playing Land of the Rair. Here is a bunch of tips and tricks to ensure your success:
 
-
+* Want to stack a lot of commands with few clicks? Make a macro that is like so: `attack;attack;attack;attack`. This will stack 4 attacks for every click!
 * When you die, use the `restore` macro to come back to life!
 * If you prefix a command with `#`, it will always be run as a command, no matter if you're in command or chat mode!
 * When you die, you'll drop the items you're holding. Be careful and remember where you are!
