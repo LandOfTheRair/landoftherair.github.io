@@ -9,14 +9,14 @@ Halloween is the glorious holiday of zombie-killing and candy-getting. Here in L
 
 Each holiday will grant you tokens to buy new items. This holiday will offer you Halloween Tokens. You can get them in ways described below, and cash them in at the Holiday Basement south of Rylt.
 
-### Holiday Token Acquisition:
+### Acquisition
 
 * Daily quests
 * Holiday quests
 * Trade in candy in the Holiday Basement
 * Trade in brains in the Holiday Basement
 
-### Holiday Token Rewards:
+### Rewards
 
 * Pumpkin Shield (+40 AC)
 * Halloween Gem (+50 HP/MP)
