@@ -77,6 +77,8 @@ Martial combat is primarily used by Fighters, but every class benefits from havi
 
 Crosshows are one-handed ranged weapons, while longbows and shortbows both occupy both hands. In general, this means that crossbows will be weaker while offering more defensive options, where longbows and shortbows offer more offensive solutions. Longbows generally have a wider damage variance compared to shortbows.
 
+Arrows can also be held to boost the damage of the bow, but are not required.
+
 Ranged weapons are primarily used by Fighters and Thieves.
 
 ### Thrown Weapons
