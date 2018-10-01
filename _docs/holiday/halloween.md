@@ -26,4 +26,4 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 
 * Jarek offers a new zombie killing quest
 * All daily quests give Halloween Tokens
-* Trick-or-treating (quest start in the Holiday Basement)
+* Trick-or-treating (quest start in the Holiday Basement, you can right click green NPCs while holding the basket)
