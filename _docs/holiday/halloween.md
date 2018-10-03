@@ -19,6 +19,7 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 ### Rewards
 
 * Pumpkin Shield (+40 AC)
+* Moon Boots (+100 magic resistance)
 * Halloween Gem (+50 HP/MP)
 * Scrolls of Slow Digestion (I, II, III, IV, V) - +20% food duration
 
