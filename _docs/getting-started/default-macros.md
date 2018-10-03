@@ -34,6 +34,7 @@ Macro | Syntax | Description
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
 `break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
+`use`                 | `use <hand>` | Use the item in `hand`. You can also do `~use` to make this happen instantly, instead of taking a round.
 `.`                   | | Repeat the last command.
 
 ## Emotes
