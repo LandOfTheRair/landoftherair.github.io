@@ -19,6 +19,8 @@ Any time you see `<target>` that means you can use a `targetish` when using the 
 
 These are macros built into the game, some added to your default hotbar.
 
+If a macro says that it "supports instant use", that means you can pre-pend a `~` to make the macro happen instantly, for example: `use` will use an item in a round, but `~use` will use the item instantly.
+
 Macro | Syntax | Description
 ----- | ------ | -----------
 `chase`               | `chase <target>` | Move towards the target.
@@ -34,7 +36,9 @@ Macro | Syntax | Description
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
 `break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
-`use`                 | `use <hand>` | Use the item in `hand`. You can also do `~use` to make this happen instantly, instead of taking a round.
+`use`                 | `use <hand>` | Use the item in `hand`. Supports instant use.
+`wield`               | `wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand. Supports instant use.
+`sheathe`             | `sheathe <left|right>` | Put the item in your left or right hand into your belt. Supports instant use.
 `.`                   | | Repeat the last command.
 
 ## Emotes
@@ -64,8 +68,6 @@ Macro | Syntax | Description
 `~move`         | `~move <x> <y>` | Move X tiles and Y tiles.
 `~search`       | | Search the corpses on the ground.
 `~look`         | | Look at the ground, not searching the corpses.
-`~wield`        | `~wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand.
-`~sheathe`      | `~sheathe <left|right>` | Put the item in your left or right hand into your belt.
 
 ## Class Skill Macros
 
