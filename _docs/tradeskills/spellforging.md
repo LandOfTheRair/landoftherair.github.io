@@ -11,6 +11,8 @@ When you get to 100 dust, you can make an Enchantment Brick. You can use these i
 
 You can also attach traits to equipment using rune scrolls. These are semi-rare. An item can have a maximum of one trait on it at any time, and attaching a new one will overwrite the old one. Your success chance increases only with your spellforging skill.
 
+If you happen to come across a Runewritten Scroll (created by [Healers doing Runewriting](https://rair.land/docs/runewriting/)), you can use their scrolls and attach them to ammunition-class items, such as arrows. This will impart the spell upon the ammunition item. 
+
 ### Useful Macros
 
 * Disenchant: `~StT 0 spellforging 0 $spellforging; disenchant $spellforging` - put the item from the first sack slot (bottom right) into the disenchant slot, then disenchant it
