@@ -39,6 +39,8 @@ Macro | Syntax | Description
 `use`                 | `use <hand>` | Use the item in `hand`. Supports instant use.
 `wield`               | `wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand. Supports instant use.
 `sheathe`             | `sheathe <left|right>` | Put the item in your left or right hand into your belt. Supports instant use.
+`take`                | `take <itemClass|itemName> <from sack|belt|pouch>` | Take an item that matches itemClass or itemName from the specified container and put it into the first available hand.
+`place`               | `place <itemClass|itemName> <in sack|belt|pouch>` | Take an item that matches itemClass or itemName from either the right or left hand and put it into the specified container.
 `.`                   | | Repeat the last command.
 
 ## Emotes
@@ -123,3 +125,6 @@ There are a lot of interesting combinations you can work with while making macro
 
 * `~LtG; steal` (drop left item on ground, then steal)
 * `~LtG; mug` (drop left item on ground, then mug)
+* `take bottle from sack` (take a bottle from sack)
+* `take heal from sack` (take an item with "heal" in the name, from sack)
+* `take bottle;use right;place bottle` (take the first bottle from your sack, use it, then put it away)
