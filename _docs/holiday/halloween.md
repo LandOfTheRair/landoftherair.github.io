@@ -22,7 +22,7 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 * Moon Boots (+100 magic resistance)
 * Halloween Gem (+50 HP/MP)
 * Antanian Strength Potions (+1 STR)
-* Scrolls of Slow Digestion (I, II, III, IV, V) - +20% food duration
+* Scrolls of Sweet Tooth (I, II, III, IV, V) - +2 HP/MP Regen, -3 AC (per point)
 
 ## New Quests
 
