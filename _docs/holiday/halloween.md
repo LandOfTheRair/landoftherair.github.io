@@ -18,7 +18,7 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 
 ### Rewards
 
-* Pumpkin Shield (+40 AC)
+* Pumpkin Shield (+30 AC)
 * Moon Boots (+100 magic resistance)
 * Halloween Gem (+50 HP/MP)
 * Antanian Strength Potions (+1 STR)
