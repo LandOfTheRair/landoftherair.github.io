@@ -26,7 +26,7 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 * Charisma Amulet (+2 CHA)
 * 500oz Heal Bottle
 * Thanksgiving Gem (+1 CHA)
-* Antanian Charisma Potions (+1 STR)
+* Antanian Charisma Potions (+1 CHA)
 * Scrolls of Slow Digestion (I, II, III, IV, V) - +20% food duration per point
 
 ## New Quests
