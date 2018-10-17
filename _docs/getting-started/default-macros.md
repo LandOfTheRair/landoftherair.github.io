@@ -36,6 +36,7 @@ Macro | Syntax | Description
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
 `break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
+`cast`                | `cast <spell>` | Cast `spell`.
 `use`                 | `use <hand>` | Use the item in `hand`. Supports instant use.
 `wield`               | `wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand. Supports instant use.
 `sheathe`             | `sheathe <left|right>` | Put the item in your left or right hand into your belt. Supports instant use.
