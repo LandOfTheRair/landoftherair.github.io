@@ -14,3 +14,5 @@ Land of the Rair has some default keybinds that might be helpful to know:
 * Right Click (Tradeskill NPC): Quickly open tradeskill window
 * Right Click (Potion Slot): Quickly drink
 * Drag consumable items onto the status bar to use them
+* Right Click (Stairs, while standing on them): Use Staircase
+* Right Click (Doors, while adjacent to them): Open/Close Door
