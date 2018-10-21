@@ -9,6 +9,8 @@ Augmenting your gear is a very important part of Land of the Rair! It has a few 
 
 Enchanting and Metalworking are abilities unique to the mage and warrior respectively. Every item has an internal cap of +5, and those +5 are "slots" that you can fill with either a mage enchant (Enos or Owts) or a metalworking upgrade (using a Copper, Silver, or Gold brick. or a Fur item which bestows fire and ice protection).
 
+[Enchanting]({{ '/docs/enchanting' | relative_url }})
+
 ### Craftable Items
 
 Warriors can create armor such as a scaleplate and a fullplate (for healers and melee users respectively). These items have multiple tiers which consume the prior crafted item when upgrading. When you upgrade an item in such a way, _all of the upgrades persist to the second tier_. This means that you essentially have a cap of +10 for these items (+5 for the first item, and another +5 for the second).
