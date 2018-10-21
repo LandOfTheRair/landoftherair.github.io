@@ -15,7 +15,9 @@ Warriors can create armor such as a scaleplate and a fullplate (for healers and 
 
 ## Spellcrafting
 
-Spellcrafting is the tradeskill unique to a mage, and in context of gear, it allows them to add Trait Scrolls to items. You can have a maximum bonus of 5 across all of your gear, meaning you can have a Trait Scroll level V, or 5 Trait Scroll level I (or any combination inbetween). This means, if you have 14 level V scrolls, you can have +5 to 14 different traits. However, most released trait scrolls are level I, meaning you can have +5 to one trait, +5 to a second trait, and +4 to a third trait.
+Spellcrafting is the tradeskill unique to a mage, and in context of gear, it allows them to add Trait Scrolls to items. You can have a maximum bonus of 5 across all of your gear, meaning you can have a Trait Scroll level V, or 5 Trait Scroll level I (or any combination inbetween). This means, if you have 14 level V scrolls, you can have +5 to 14 different traits. However, most released trait scrolls are level I, meaning you can have +5 to one trait, +5 to a second trait, and +4 to a third trait. Note that if you do not have access to the trait (ie, you're a thief, but have a Forceful Strike scroll), you cannot use the trait. 
+
+Some traits, however, are "Free" traits, which mean they can be used by anyone. Some examples of this include the holiday traits: Slow Digestion, Sweet Tooth, etc.
 
 ## Encrusting
 
