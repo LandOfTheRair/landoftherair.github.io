@@ -7,7 +7,7 @@ Augmenting your gear is a very important part of Land of the Rair! It has a few 
 
 ## Enchanting / Metalworking
 
-Enchanting and Metalworking are abilities unique to the mage and warrior respectively. Every item has an internal cap of +5, and those +5 are "slots" that you can fill with either a mage enchant (Enos or Owts) or a metalworking upgrade (using a Copper, Silver, or Gold brick).
+Enchanting and Metalworking are abilities unique to the mage and warrior respectively. Every item has an internal cap of +5, and those +5 are "slots" that you can fill with either a mage enchant (Enos or Owts) or a metalworking upgrade (using a Copper, Silver, or Gold brick. or a Fur item which bestows fire and ice protection).
 
 ### Craftable Items
 
