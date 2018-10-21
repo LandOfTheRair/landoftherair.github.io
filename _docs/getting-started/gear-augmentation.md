@@ -11,7 +11,7 @@ Enchanting and Metalworking are abilities unique to the mage and warrior respect
 
 ### Craftable Items
 
-Warriors can create armor such as a scaleplate and a fullplate (for healers and melee users respectively). These items have multiple tiers of them which consume the prior item when upgrading. When you upgrade an item in such a way, _all of the upgrades persist to the second tier_. This means that you essentially have a cap of +10 for these items.
+Warriors can create armor such as a scaleplate and a fullplate (for healers and melee users respectively). These items have multiple tiers of them which consume the prior item when upgrading. When you upgrade an item in such a way, _all of the upgrades persist to the second tier_. This means that you essentially have a cap of +10 for these items (+5 for the first item, and another +5 for the second).
 
 ## Spellcrafting
 
