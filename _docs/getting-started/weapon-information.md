@@ -10,7 +10,7 @@ Land of the Rair features many kinds of weapons, including daggers, axes, maces,
 
 Longswords fit in one hand (the right hand), have average offensive abilities, average damage rolls, and a high variance in bonus damage per hit.
 
-Longswords are typically used by melee weapon users, such as Fighters.
+Longswords are typically used by melee weapon users, such as Warriors.
 
 ### Two-Handed Swords
 ##### _Features: Greatswords (and to a lesser extent: Greatmaces, Greataxes, Halberds, and Longbows)_
@@ -19,7 +19,7 @@ Two-Handed swords, such as greatswords, require both hands to use. They have pre
 
 Some weapons, such as greatmaces, greataxes, halberds, and longbows will leverage and help raise your ability to use two handed weapons.
 
-Two-handed weapons are, in general, used by Fighters.
+Two-handed weapons are, in general, used by Warriors.
 
 ### Shortswords
 ##### _Features: Shortswords_
@@ -42,14 +42,14 @@ Staves are generally used by Mages or Healers.
 
 Polearms require use of both hands, have above average damage, an average variance in bonus damage, and have great offensive capabilities. They cannot be belted.
 
-Polearms are generally used by Fighters.
+Polearms are generally used by Warriors.
 
 ### Axes
 ##### _Features: Axes, Greataxes_
 
 Axes use one hand, while their great counterpart uses two. They have average offensive capabilities, low variance in bonus damage, and above average damage, but generally carry an accuracy bonus.
 
-Axes are generally used by Fighters.
+Axes are generally used by Warriors.
 
 ### Daggers
 ##### _Features: Daggers_
@@ -59,18 +59,18 @@ Daggers use one hand, but can sometimes occupy both hands. Some daggers are "ret
 Daggers are the easiest weapons to conceal, making them an excellent choice for Thieves.
 
 ### Maces
-##### _Features: Maces, Hammers, Flails, Clubs, Greatmaces, Shields_
+##### _Features: Maces, Hammers, Flails, Clubs, Greatmaces_
 
 Maces use one hand, while their great counterpart uses two. They have above average offensive capabilities, average damage, but often carry an accuracy penalty.
 
-Maces are often used by Fighters or Healers. Shields are often used by Fighters, but can be made use of by magic classes for a defensive bonus.
+Maces are often used by Warriors or Healers. Shields are often used by Warriors, but can be made use of by magic classes for a defensive bonus.
 
 ### Martial
 ##### _Features: Gloves, Claws, Bare Fist_
 
 Martial skill is what you use any time you don't have an item in your right hand, or you have an unclassified item, such as a rock, tunic, skull, gem, or other environmental/armor related item. Gloves will generally have above average offensive and defensive abilities and average damage, while claws will generally have above average offensive capabilities, above average damage, and oher offensive attributes.
 
-Martial combat is primarily used by Fighters, but every class benefits from having it.
+Martial combat is primarily used by Warriors, but every class benefits from having it.
 
 ### Ranged Weapons
 ##### _Features: Crossbows, Longbows, Shortbows_
@@ -79,7 +79,7 @@ Crosshows are one-handed ranged weapons, while longbows and shortbows both occup
 
 Arrows can also be held to boost the damage of the bow, but are not required.
 
-Ranged weapons are primarily used by Fighters and Thieves.
+Ranged weapons are primarily used by Warriors and Thieves.
 
 ### Thrown Weapons
 ##### _Features: Returning Daggers, anything you throw_
@@ -94,3 +94,8 @@ Thrown weapons are primarily used by Thieves.
 Magical weapons generally occupy one hand, and carry an effect when they hit their target. They are often rare, but effective combat weapons.
 
 Magical weapons are utilized by every class.
+
+### Shields
+##### _Features: Shields, Saucers_
+
+Shields are counted as maces for weapon purposes (because they bash). Using special traits as a Warrior will let you dual-wield shields. Additionally, if you find a Saucer, it can be used as a shield and a helm!
