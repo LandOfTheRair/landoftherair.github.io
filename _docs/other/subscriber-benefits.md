@@ -13,7 +13,8 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * +5000 Repair level from every smith
 * -25% HP/MP doc cost
 * +25 market board listing slots
-* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), cheaper market board taxes, and more.
+* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), cheaper market board taxes, and more
+* Access to a global locker, which lets you modify all of your lockers from one convenient place
 * 500 silver per month of subscription
 * +100% Holiday Token gain rate from quests
 * A discord role and subscriber only channel
@@ -28,6 +29,7 @@ Are you interested in trialling a subscription before you buy? Contact a GM to s
 * +1000 Repair level from every smith
 * -5% HP/MP doc cost
 * +5 market board listing slots
-* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more.
+* Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more
+* Access to a global locker, which lets you modify all of your lockers from one convenient place
 * +100% Holiday Token gain rate from quests
 * No monthly silver bonus
