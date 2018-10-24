@@ -11,3 +11,4 @@ Additionally, you can tan creatures in the wild. It costs durability and require
 
 * Tan: `tan` - Attempt to tan all corpses on your tile.
 * Extract: `extract` - Attempt to extract blood from a corpse in your left hand.
+* Grab corpse and extract: `~GtL Corpse;extract;place blood in sack`
