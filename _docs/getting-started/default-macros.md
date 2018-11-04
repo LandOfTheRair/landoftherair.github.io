@@ -28,6 +28,8 @@ Macro | Syntax | Description
 `climb down`          | | Climb down at the current location.
 `up`                  | | Use the stairs at the current location.
 `down`                | | Use the stairs at the current location.
+`empty`               | `empty <left|right>` | Empty the bottle in your chosen hand.
+`fill`                | `fill <left|right>` | Fill the bottle in your chosen hand based on where you are.
 `look at`             | `look at <target>` | Get a description of the target.
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
 `close`               | `close <dir>` | Close the door either N, S, E, or W from you.
