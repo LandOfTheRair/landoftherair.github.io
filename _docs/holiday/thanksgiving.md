@@ -22,9 +22,9 @@ Each holiday will grant you tokens to buy new items. This holiday will offer you
 * Pilgrim Hat (3/3, Permanent Truesight)
 * Pilgrim Boots (3/3, +2 AGI/DEX, +1 MOV)
 * Pilgrim Cloak (3/3, 25 Magical Resist, Permanent Succor)
-* Turkey Staff (3/3, 15 AC, 2 INT/WIS/WIL, 10 MP Regen)
+* Turkey Staff (3/3, 15 AC, 2 INT/WIS/WIL, 10 MP Regen, Allows for summoning Turkey familiars)
 * Charisma Amulet (+2 CHA)
-* 500oz Heal Bottle
+* 25oz, 100oz, 250oz, 500oz Heal Bottle
 * Thanksgiving Gem (+1 CHA)
 * Antanian Charisma Potions (+1 CHA)
 * Scrolls of Slow Digestion (I, II, III, IV, V) - +20% food duration per point
