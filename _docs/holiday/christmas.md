@@ -3,7 +3,7 @@ title: Christmas
 permalink: /docs/christmas/
 ---
 
-Christmas is the holiday of elves and presents. It takes place throughout the entire month of Christmas, and will offer you the following:
+Christmas is the holiday of elves and presents. It takes place throughout the entire month of December, and will offer you the following:
 
 ## Christmas Tokens
 
