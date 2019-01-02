@@ -34,7 +34,7 @@ Macro | Syntax | Description
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
 `close`               | `close <dir>` | Close the door either N, S, E, or W from you.
 `write`               | `write <message>` | While holding an ink pot and an empty scroll, you can add your own message to the scroll.
-`show stats`          | `show stats <all>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics.
+`show stats`          | `show stats <all|leader>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics. `show stats leader` will show you your current leaderboard stats.
 `show skills`         | | Get a listing of all of your skills.
 `restore`             | | Revive yourself when you're dead.
 `break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
