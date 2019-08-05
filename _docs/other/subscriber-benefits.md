@@ -35,3 +35,8 @@ Are you interested in trialling a subscription before you buy? Contact a GM to s
 * Access to a global locker, which lets you modify all of your lockers from one convenient place
 * +100% Holiday Token gain rate from quests
 * No monthly silver bonus
+
+Additionally, you get some different bonuses if you [subscribe to my Patreon](https://www.patreon.com/seiyria). These rewards are definitely not finalized, so if you have suggestions, feel free to mention it!
+
+* Patron Tier: 1000 silver (one time)
+* Patron Saint: 5000 silver (one time)
