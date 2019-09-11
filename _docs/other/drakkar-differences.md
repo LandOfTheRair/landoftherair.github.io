@@ -53,4 +53,5 @@ I want to take a page to talk about the differences. Some will be small and inco
 * Better GM (sysop) tools. Things can be created from scratch, duped, fixed etc as necessary.
 * Items with random stats have a star rating (1-3) that shows how good they are.
 * Obtainable resources, instead of everything dropping from random monsters.
+* Skill trees are how you obtain passive abilities (traits) and active abilities (skills). This means you can spec your character however you want. Instead of having 7 classes, the game has 4 base classes, which can turn into 3 specialized versions.
 * Playable on web or desktop.
