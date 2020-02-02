@@ -3,7 +3,7 @@ title: Map Making
 permalink: /docs/map-making/
 ---
 
-# Getting Started
+## Getting Started
 
 1. Download the [Tiled Map Editor](https://www.mapeditor.org/download.html) ([**SPECIFICALLY VERSION 1.1.4**](https://github.com/bjorn/tiled/releases/tag/v1.1.4)), the [source code for the game](https://github.com/LandOfTheRair/landoftherair/archive/master.zip) and the [sprite sheets for the game](https://github.com/LandOfTheRair/assets-built/archive/master.zip). 
 
@@ -19,21 +19,21 @@ permalink: /docs/map-making/
 
 I'll be looking to clean up this process in the future, but this is it for now. **You have to follow the exact setup above, or else something will not work correctly.**
 
-# Tiled Settings
+## Tiled Settings
 
 You should change these settings to ON, or you're going to have a bad time:
 
 * View -> Snapping -> Snap to Grid
 
-# Creating a Map
+## Creating a Map
 
 When creating a map, it should follow these constraints:
 
-## Map Structure
+### Map Structure
 
 There **must** be a gutter (margin) of 4 tiles on each edge of the map (see any map for an example). Otherwise, the camera will get messed up.
 
-## Map Layers
+### Map Layers
 
 Each map should have these map layers (in order; if you copy a map, they will be):
 
@@ -53,7 +53,7 @@ Each map should have these map layers (in order; if you copy a map, they will be
 14. Floors - this is another visual layer on top of terrain, it has no effect other than affecting visual tile layering. Typically carpets, bone piles, etc will go on this layer.
 15. Terrain - this is the base layer and is the tile that is the general basis of your map - grass, dirt, tile, etc.
 
-## Optional Properties
+### Optional Properties
 
 Maps have optional properties that can be set:
 
@@ -65,24 +65,24 @@ Maps have optional properties that can be set:
 * `maxItemsOnGround` (Controls the max items on ground before decay is forced to start. default: 1000)
 * `subscriberOnly` (If set to true, non subscribers cannot enter the map)
 
-## Additional Objects
+### Additional Objects
 For some specific objects, there is additional configuration required:
 
-### Secret Walls
+#### Secret Walls
 These must be on the "OpaqueDecor" layer, and must have the type "SecretWall".
 
-### Event Sources
+#### Event Sources
 Event Sources can be added to fire events when entering or exiting a tile. They can have these properties:
 
 * `offEvent` - the event name fired when leaving
 * `onEvent` - the event name fired when entering
 
-### Lockers
+#### Lockers
 * `name` needs to be set to the locker name. 
 * `type` needs to be set to Locker.
 * `lockerId` needs to be set to a unique id (or non-unique, to share a locker with a previous area)
 
-### Stairs, Holes, Teleport Tiles
+#### Stairs, Holes, Teleport Tiles
 * `type` should be set to StairsUp or StairsDown or Teleport or ClimbUp or ClimbDown or Fall
 * `teleportMap` should be set to the map to teleport to
 * `teleportX` should be set to the x position on the map to teleport to
@@ -93,7 +93,7 @@ Event Sources can be added to fire events when entering or exiting a tile. They 
 * `requireQuestComplete` can be set to require a quest be complete for a player
 * `damagePercent` can be set to a number 0..100 if the `type` is Fall.
 
-### Doors
+#### Doors
 * `type` should be set to Door
 * `requireHeld` can be set to an item name if it's needed to get through.
 * `requireLockpick` can be set to true or false if the door can optionally be picked (required if no requireHeld is set)
@@ -101,12 +101,12 @@ Event Sources can be added to fire events when entering or exiting a tile. They 
 * `requireEventToOpen` can be set to make it so the door only opens in response to events
 * `lockedIfAlive` can be set to a mob name to make it so the door only opens if no mobs matching the id given are alive
 
-### Drinkable Areas
+#### Drinkable Areas
 * `type` should be set to `Fillable`
 * `fillEffect` should reference an effect that exists
 * `fillDesc` should be a description of the liquid
 
-### Spawners
+#### Spawners
 * `randomWalkRadius` is the number of tiles in any direction from the spawner the creature will naturally walk (default: 10)
 * `leashRadius` is the number of tiles in any direction from the spawner the creature will chase a hostile target (default: 20)
 * `respawnRate` is the number of ticks (half-seconds) it takes for a creature to spawn from this spawner (default: 240)
@@ -114,33 +114,33 @@ Event Sources can be added to fire events when entering or exiting a tile. They 
 * `script` set to the script for the spawner. For lairs, it should be set to `global/lair`.
 * `lairName` set to the name of the lair creature to spawn (optional: for lairs only)
 
-### Alchemist
+#### Alchemist
 * `script` should be set to `global/alchemist`
 * `alchCost` is the cost to combine ounces of a potion
 * `alchOz` is the maximum number of ounces the alchemist will combine to
 
-### Smith
+#### Smith
 * `script` should be set to `global/smith`
 * `costPerThousand` is the cost per thousand of condition (avg=20000) to repair an item (default: 1)
 * `repairsUpToCondition` is the max condition the smith will repair to (default: 20000)
 
-### Tanner
+#### Tanner
 * `script` should be set to `global/tanner`
 
-### Peddler
+#### Peddler
 * `script` should be set to `global/peddler`
 * `peddleCost` should be set to a cost in gold to buy an item
 * `peddleItem` should be set to an item name
 
-### Banker
+#### Banker
 * `script` should be set to `global/banker`
 * `bankId` should be set to the region the bank is in
 * `branchId` should be set to the branch the bank is (flavor text, usually set to the town name)
 
-### Other NPCs
+#### Other NPCs
 * `script` should be set to their script.
 
-# Additional Information
+## Additional Information
 
 In addition to an actual map, I would prefer to have a document submitted that lists:
 
@@ -150,12 +150,12 @@ In addition to an actual map, I would prefer to have a document submitted that l
 
 I may not copy them verbatim but I'll do my best to implement them.
 
-# Making a Map More Easily
+## Making a Map More Easily
 
 * Use the terrain brush to place water, carpets, tiles, floors, etc. It will automatically place edges for you. Hold CTRL to make it place a 2x2 instead of 3x3. To place a 1-wide, you'll have to do that manually.
 * To place trees, use the random (dice) button. Ctrl-select multiple trees, then place them using the brush. This will help avoid an unnatural-feeling forested area.
 
-# Map Guidelines
+## Map Guidelines
 
 These are in no particular order, but in order to make it easier on both of us. When in doubt, ask, or check an existing map to see how it is done there.
 
