@@ -7,11 +7,11 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 
 * +25% XP Gain
 * +100% AXP gain
-* +25% Skill/Tradeskill gain
-* +25% Party XP gain
-* +10 Action Queue Items (the number of commands you can queue up in game)
+* +25% Skill gain
+* +5 Succor ounces from every tree
 * +5 Potion ounces from every alchemist
 * +5000 Repair level from every smith
+* -25% Repair cost from every smith
 * -25% HP/MP doc cost
 * +25 market board listing slots
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), cheaper market board taxes, and more
@@ -24,11 +24,11 @@ Are you interested in trialling a subscription before you buy? Contact a GM to s
 
 * +5% XP Gain
 * +100% AXP gain
-* +5% Skill/Tradeskill gain
-* +5% Party XP gain
-* +2 Action Queue Items (the number of commands you can queue up in game)
+* +5% Skill gain
+* +1 Succor ounce from every tree
 * +1 Potion ounce from every alchemist
 * +1000 Repair level from every smith
+* -5% Repair cost from every smith
 * -5% HP/MP doc cost
 * +5 market board listing slots
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more
