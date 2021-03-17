@@ -68,7 +68,11 @@ body {
   font-size: 125%;
 }
 
-#factoid {
+.desc {
+  min-height: 90px;
+}
+
+.factoid {
   min-height: 40px;
   display: inline-block;
 }

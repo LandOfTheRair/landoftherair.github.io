@@ -5,10 +5,10 @@ layout: default
 <div class="header-container jumbotron">
     <div class="container">
         <h1>A retro-style MUD for the new age</h1>
-        <p>
+        <p class="desc">
           Simple and engaging - monsters to kill, quests to complete. You don't even need a terminal to play.
           <br>
-          <span id="factoid"></span>
+          <span class="factoid"></span>
         </p>
         
         <p>
@@ -68,7 +68,8 @@ layout: default
     const res = await fetch('https://global.server.rair.land/factoid');
     const json = await res.json();
     const factoid = json.factoid;
-    document.getElementById('factoid').innerText = factoid;
+
+    document.getElementsByClassName('factoid')[0].innerText = factoid;
   };
 
   getFactoid();
