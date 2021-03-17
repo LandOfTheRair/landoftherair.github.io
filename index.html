@@ -5,10 +5,17 @@ layout: default
 <div class="header-container jumbotron">
     <div class="container">
         <h1>A retro-style MUD for the new age</h1>
-        <p>Simple and engaging - monsters to kill, quests to complete. You don't even need a terminal to play.</p>
-        <p><a class="btn btn-primary btn-lg" href="https://play.rair.land" role="button">
-          Begin your quest
-        </a></p>
+        <p>
+          Simple and engaging - monsters to kill, quests to complete. You don't even need a terminal to play.
+          <br>
+          <span id="factoid"></span>
+        </p>
+        
+        <p>
+          <a class="btn btn-primary btn-lg" href="https://play.rair.land" role="button">
+            Begin your quest
+          </a>
+        </p>
     </div>
 </div>
 
@@ -55,3 +62,14 @@ layout: default
 
 
 </div>
+
+<script type="text/javascript">
+  const getFactoid = async () => {
+    const res = await fetch('https://global.server.rair.land/factoid');
+    const json = await res.json();
+    const factoid = json.factoid;
+    document.getElementById('factoid').innerText = factoid;
+  };
+
+  getFactoid();
+</script>
