@@ -12,7 +12,8 @@ Let's keep it positive in here!
 - Use the appropriate channels where possible
 - Please keep politics and religion chat to a minimum
 - Don't advertise other Discords without prior approval
-- Remember, the game is connected via the #lobby channel and we try to keep an eye on it (for moderation and engagement purposes), but if something needs to be brought to our attention, ping @GM.
-- Some addons may be allowed, but if you want to double check, ask in Discord.
+- Remember, the game is connected via the #lobby channel and we try to keep an eye on it (for moderation and engagement purposes), but if something needs to be brought to our attention, ping @GM
+- Some addons may be allowed, but if you want to double check, ask in Discord
+- Don't abuse game exploits
 
 Not following these guidelines can result in a ban or mute either in game, in Discord, or both.
