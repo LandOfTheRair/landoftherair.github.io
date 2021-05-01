@@ -20,3 +20,4 @@ In addition to the above, some players have contributed significant content to t
 
 * Blackmoore - Created the "Dedlaen Maze" map
 * Sarimash - bugfixes and help with LotR2
+* Wrexbe - lots of help with LotR2
