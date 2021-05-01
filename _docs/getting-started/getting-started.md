@@ -30,7 +30,19 @@ You also have two hand slots - the left and right hand. Your right hand (the slo
 
 ### NPCs
 
+NPCs come in 3 varieties:
+
+![](https://i.imgur.com/vpDzV1B.png)
+
+The left-most, "green-tag" NPC is a friendly NPC. They often have quests, shops, or other interactable features.
+The middle, "grey-tag" NPC is a neutral NPC. They might attack you if you attack them, but won't initiate against you.
+The right-most, "red-tag" NPC is a hostile NPC. They will attack you if they're not busy attacking something else.
+
 Clicking on an NPC with a green name tag will begin interacting with that NPC. If it's a shop, it'll open their shop for you. If it's a normal NPC, they'll begin talking with you. If you read their dialog carefully, you can ask them questions about what they're saying by telling them `npcname, keyword`. This is key to figuring out some quests.
+
+#### Combat
+
+Knowing the type of NPCs that exist, you can attack these types: grey-tag and red-tag NPCs. To attack them, you click their box in the top left (Character list). Your character will automatically continue attacking until it dies or you die, or you cancel (hit Escape). When a creature dies, it leaves behind a corpse, which is not immediately useful on its own. You have to use the search action to find the items the corpse has. 
 
 ### The Crier
 
