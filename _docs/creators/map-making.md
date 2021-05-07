@@ -5,7 +5,7 @@ permalink: /docs/map-making/
 
 ## Getting Started
 
-1. Download the [Tiled Map Editor](https://www.mapeditor.org/download.html) ([**SPECIFICALLY VERSION 1.1.4**](https://github.com/bjorn/tiled/releases/tag/v1.1.4)), the [source code for the game](https://github.com/LandOfTheRair/landoftherair/archive/master.zip) and the [sprite sheets for the game](https://github.com/LandOfTheRair/assets-built/archive/master.zip). 
+1. Download the [Tiled Map Editor](https://www.mapeditor.org/download.html) ([**SPECIFICALLY VERSION 1.1.4**](https://github.com/bjorn/tiled/releases/tag/v1.1.4)) and the sprite sheets for the game: [decor](https://play.rair.land/assets/spritesheets/decor.png), [creatures](https://play.rair.land/assets/spritesheets/creatures.png), [terrain](https://play.rair.land/assets/spritesheets/terrain.png), [walls](https://play.rair.land/assets/spritesheets/walls.png). 
 
 2. Unzip the game and spritesheets. 
 
