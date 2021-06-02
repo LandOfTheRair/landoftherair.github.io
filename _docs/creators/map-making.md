@@ -37,21 +37,22 @@ There **must** be a gutter (margin) of 4 tiles on each edge of the map (see any 
 
 Each map should have these map layers (in order; if you copy a map, they will be):
 
-1. SpawnerZones - this is an object layer that uses *only* rectangle objects. It's used to help the game understand where creatures are bunched up. You shouldn't add anything to it.
-2. Succorport - this is an object layer that uses *only* rectangle objects. The rectangle object name sets the region name in succor/teleport.
-3. BackgroundMusic - this is an object layer that uses *only* rectangle objects. The rectangle object name sets the BGM played in the region.
-4. RegionDescriptions - this is an object layer that uses *only* rectangle objects. The rectangle objects set the description for the area contained inside of it. Additionally, if there is no succorport, any succor/teleports will use the name of this RegionDescription.
-5. Spawners - this is an object layer specifically for spawners. Generally, they are restricted to the pylon sprite to prevent confusion.
-6. NPCs - this is an object layer for specific scripted NPCs. This typically includes shops, quest givers, and the like.
-7. Interactables - this is an object layer for anything interactable - doors, stairs, portals, or map event tiles.
-8. OpaqueDecor - this is an object layer for decorative things that should not be see-through-able but can be walked through. Typically, secret walls are put on this layer.
-9. DenseDecor - this is an object layer for decorative things that should also not be walk-through-able (but can be seen through). Typically, counters are put on this layer.
-10. Decor - this is an object layer for decorative things such as beds, barrels, etc.
-11. Walls - this is a layer specifically for walls. Sparingly, trees may also be placed here to make them opaque/dense.
-12. Foliage - this is a layer specifically for trees and plants.
-13. Fluids - this is a layer for water and lava only. Do not put anything else (ie, pools, fountains) on this layer.
-14. Floors - this is another visual layer on top of terrain, it has no effect other than affecting visual tile layering. Typically carpets, bone piles, etc will go on this layer.
-15. Terrain - this is the base layer and is the tile that is the general basis of your map - grass, dirt, tile, etc.
+1. ZLevel - this is an object layer that uses *only* rectangle objects. It's used to specify what's above or below what on the map.
+1. SpawnerZones - this is a legacy layer, don't use it for anything.
+1. Succorport - this is an object layer that uses *only* rectangle objects. The rectangle object name sets the region name in succor/teleport.
+1. BackgroundMusic - this is an object layer that uses *only* rectangle objects. The rectangle object name sets the BGM played in the region.
+1. RegionDescriptions - this is an object layer that uses *only* rectangle objects. The rectangle objects set the description for the area contained inside of it. Additionally, if there is no succorport, any succor/teleports will use the name of this RegionDescription.
+1. Spawners - this is an object layer specifically for spawners. Generally, they are restricted to the pylon sprite to prevent confusion.
+1. NPCs - this is an object layer for specific scripted NPCs. This typically includes shops, quest givers, and the like.
+1. Interactables - this is an object layer for anything interactable - doors, stairs, portals, or map event tiles.
+1. OpaqueDecor - this is an object layer for decorative things that should not be see-through-able but can be walked through. Typically, secret walls are put on this layer.
+1. DenseDecor - this is an object layer for decorative things that should also not be walk-through-able (but can be seen through). Typically, counters are put on this layer.
+1. Decor - this is an object layer for decorative things such as beds, barrels, etc.
+1. Walls - this is a layer specifically for walls. Sparingly, trees may also be placed here to make them opaque/dense.
+1. Foliage - this is a layer specifically for trees and plants.
+1. Fluids - this is a layer for water and lava only. Do not put anything else (ie, pools, fountains) on this layer.
+1. Floors - this is another visual layer on top of terrain, it has no effect other than affecting visual tile layering. Typically carpets, bone piles, etc will go on this layer.
+1. Terrain - this is the base layer and is the tile that is the general basis of your map - grass, dirt, tile, etc.
 
 ### Optional Properties
 
@@ -176,3 +177,4 @@ These are in no particular order, but in order to make it easier on both of us. 
 * Please put RegionDescriptions on your map, and spell check them. I will do a final review of them. If you're curious how to do that, pull one from another map via copy/paste.
 * You can put BGM if you want to. Copy and paste from another map if you're unsure how it works.
 * The Succorport layer is only necessary if you want to restrict succor/teleport in a particular zone. Usually, this is used for lairs or progression areas to prevent skipping.
+* The ZLevel layer is only necessary if you have areas in your map that are above/below others.
