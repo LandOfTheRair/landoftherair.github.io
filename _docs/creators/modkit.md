@@ -266,6 +266,8 @@ Here are some frequently asked questions that may have come up while reading thi
 
 When there is a "weight", that means that all options in the list will be "weighted" against each other when picking from that list. If you have 3 entries with weights 1, 1, and 1 they are all equal weight, and all likely to be picked. However, if you have entries with weight 3 and 1, then the first entry is 3 times as likely to be picked. 
 
-In this editor, there is also the ability to specify -1 as a weight, which means "always" (in certain contexts).
+In this editor, there is also the ability to specify -1 as a weight, which means "always" (in certain contexts). If there are ever two inputs (as with NPC drops, and NPC sack), the left one will be "chance" and the right one will be "max chance" - set chance to -1 to ensure it always appears or drops (max chance can be set to anything). Otherwise, it will be a chance / maxChance of appearing (usually, you would set chance to 1, and maxChance to something like 100 for a 1/100).
+
+In some cases, it is preferred to not use the -1 notation, and instead have a "none" result (this is the case with all NPC equipment). It is possible that this will one day be made homogenous; but that is not how it exists today.
 
 Sometimes, there is also a "max chance" option next to a weight, or the option itself functions as "max chance" instead of "weight". In this case, the option will not be weighted, but instead will drop in a 1/max chance.
