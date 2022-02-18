@@ -3,22 +3,6 @@ title: Map Making
 permalink: /docs/map-making/
 ---
 
-## Getting Started
-
-1. Download the [Tiled Map Editor](https://www.mapeditor.org/download.html) ([**SPECIFICALLY VERSION 1.1.4**](https://github.com/bjorn/tiled/releases/tag/v1.1.4)) and the sprite sheets for the game: [decor](https://play.rair.land/assets/spritesheets/decor.png), [creatures](https://play.rair.land/assets/spritesheets/creatures.png), [terrain](https://play.rair.land/assets/spritesheets/terrain.png), [walls](https://play.rair.land/assets/spritesheets/walls.png). 
-
-2. Unzip the game and spritesheets. 
-
-3. Put the spritesheets in a folder: `src/client/assets/spritesheets`. 
-
-4. Open the maps in `src/content/maps` in Tiled. 
-
-5. Copy and paste an existing map to get the correct setups. You can copy and paste the `src/content/maps/Template.json` map into one of the folders (`antania`, for example) and it will be set up correctly.
-
-6. Did you copy the template, or an existing map? Verify that you did. If you don't, your map is not guaranteed to be usable. **Do not create Tiled maps from scratch, always copy an existing map.**
-
-I'll be looking to clean up this process in the future, but this is it for now. **You have to follow the exact setup above, or else something will not work correctly.**
-
 ## Tiled Settings
 
 You should change these settings to ON, or you're going to have a bad time:
@@ -58,8 +42,9 @@ Each map should have these map layers (in order; if you copy a map, they will be
 
 Maps have optional properties that can be set:
 
-* `maxCreatures` (Controls the maximum number of creatures on the map. When set to 0, spawners will only spawn their minimal number. default: 0)
+* `maxCreatures` (Controls the maximum number of creatures on the map. When set to 0, spawners will only spawn their minimal number. default: 1)
 * `maxSkill` (Controls the max skill you can gain skill points at for this map. default: 1)
+* `maxLevel` (Controls the max level you can gain xp at for this map. default: 1)
 * `region` (Controls the region this map belongs to. Affects banks, lockers, regional drop tables)
 * `itemExpirationHours` (Controls how many hours it takes for items to decay on this map. default: 6)
 * `itemGarbageCollection` (Controls how many minutes it takes for item garbage collection checks to occur. default: 60)
@@ -140,16 +125,6 @@ Event Sources can be added to fire events when entering or exiting a tile. They 
 
 #### Other NPCs
 * `script` should be set to their script.
-
-## Additional Information
-
-In addition to an actual map, I would prefer to have a document submitted that lists:
-
-* What quests you would like in the map
-* What items you would like in the map (and how they're obtained)
-* What monsters you would like in the map (and their abilities, general toughness, etc)
-
-I may not copy them verbatim but I'll do my best to implement them.
 
 ## Making a Map More Easily
 
