@@ -35,6 +35,7 @@
 
 - title: Creators
   docs:
+    - modkit
     - map-making
     - gm-commands
 
