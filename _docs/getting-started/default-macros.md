@@ -28,6 +28,7 @@ Macro | Syntax | Description
 `climb down`          | | Climb down at the current location.
 `up`                  | | Use the stairs at the current location.
 `down`                | | Use the stairs at the current location.
+`face`                | `face <dir>` | Face N, E, S, or W.
 `empty`               | `empty <left|right>` | Empty the bottle in your chosen hand.
 `fill`                | `fill <left|right>` | Fill the bottle in your chosen hand based on where you are.
 `look at`             | `look at <target>` | Get a description of the target.
