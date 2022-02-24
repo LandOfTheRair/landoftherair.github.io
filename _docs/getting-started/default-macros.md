@@ -123,6 +123,33 @@ Macro | Syntax | Description
 `~RtB` | `~RtB` | Move item from right hand to belt.
 `~RtR` | `~RtR` | Move item from right hand to left hand.
 
+## Advanced Macro Substitutions
+
+Macro substitutions can be used to find creatures that meet a certain criteria for macro targetting. For example, healing the weakest player, or attacking the farthest NPC (potentially a runner). These can be used in any macro that targets a creature, such as with `chase $farthest` or `cast magicmissile $randomnpc`.
+
+Here is a full listing of each substitution:
+
+Substitution | Description
+------------ | -----------
+`$firstnpc`         | Replace with the first possible NPC.
+`$firstplayer`      | Replace with the first possible player (excluding yourself).
+`$first`            | Replace with the first possible creature.
+`$randomnpc`        | Replace with a random NPC.
+`$randomplayer`     | Replace with a random player.
+`$random`           | Replace with a random creature.
+`$strongestnpc`     | Replace with the strongest NPC (by HP).
+`$strongestplayer`  | Replace with the strongest player (by HP).
+`$strongest`        | Replace with the strongest creature (by HP).
+`$weakestnpc`       | Replace with the weakest NPC (by HP).
+`$weakestplayer`    | Replace with the weakest player (by HP).
+`$weakest`          | Replace with the weakest creature (by HP).
+`$farthestnpc`      | Replace with the farthest away NPC.
+`$farthestplayer`   | Replace with the farthest away player.
+`$farthest`         | Replace with the farthest away creature.
+`$closestnpc`       | Replace with the closest NPC.
+`$closestplayer`    | Replace with the closest player.
+`$closest`          | Replace with the closest creature.
+
 # Suggested Macros
 
 There are a lot of interesting combinations you can work with while making macros in Land of the Rair. Some of my favorites are these:
@@ -132,3 +159,4 @@ There are a lot of interesting combinations you can work with while making macro
 * `take bottle from sack` (take a bottle from sack)
 * `take heal from sack` (take an item with "heal" in the name, from sack)
 * `take bottle;use right;place bottle` (take the first bottle from your sack, use it, then put it away)
+* `cast heal $weakestplayer` (cast heal at the weakest player)
