@@ -77,7 +77,8 @@ Event Sources can be added to fire events when entering or exiting a tile. They 
 * `requireQuest` can be set to require a quest be started for a player (always true if the quest is completed)
 * `requireQuestProgress` can be set to require a key in the quest data be true (always true if the quest is completed)
 * `requireQuestComplete` can be set to require a quest be complete for a player
-* `damagePercent` can be set to a number 0..100 if the `type` is Fall.
+* `damagePercent` can be set to a number 0..100 if the `type` is Fall
+* `applyEffect` can be set to a valid effect name if the `type` is Teleport
 
 #### Doors
 * `type` should be set to Door
