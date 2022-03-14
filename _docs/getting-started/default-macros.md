@@ -56,8 +56,11 @@ A list of emotes is as follows:
 * `agree`
 * `dance` (friendly)
 * `disagree`
+* `hail`
 * `hug` (friendly)
+* `greet`
 * `kiss` (friendly)
+* `laugh` (friendly)
 * `mock` (hostile)
 * `prod`
 * `scratch` (hostile)
@@ -65,6 +68,7 @@ A list of emotes is as follows:
 * `sing` (friendly)
 * `spit` (hostile)
 * `tickle` (friendly)
+* `wave`
 
 ## Internal Macros
 
