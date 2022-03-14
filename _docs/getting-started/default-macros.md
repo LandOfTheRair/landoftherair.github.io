@@ -45,6 +45,7 @@ Macro | Syntax | Description
 `sheathe`             | `sheathe <left|right>` | Put the item in your left or right hand into your belt. Supports instant use.
 `take`                | `take <itemClass|itemName> <from sack|belt|pouch>` | Take an item that matches itemClass or itemName from the specified container and put it into the first available hand.
 `place`               | `place <itemClass|itemName> <in sack|belt|pouch>` | Take an item that matches itemClass or itemName from either the right or left hand and put it into the specified container.
+`wait`                | | Do nothing for a tick.
 `.`                   | | Repeat the last command.
 
 ## Emotes
