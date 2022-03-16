@@ -17,6 +17,7 @@ As a subscriber to Land of the Rair, you receive many convenient perks:
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), cheaper market board taxes, and more
 * Access to a global locker, which lets you modify all of your lockers from one convenient place
 * 500 silver per month of subscription
+* Free trait resets
 * +100% Holiday Token gain rate from quests
 * A discord role and subscriber only channel
 
@@ -34,6 +35,7 @@ Are you interested in trialling a subscription before you buy? Contact a GM to s
 * Access to a subscriber only hub with teleports to each town, vendors (including more daily vendors), and more
 * Access to a global locker, which lets you modify all of your lockers from one convenient place
 * +100% Holiday Token gain rate from quests
+* Free trait resets
 * No monthly silver bonus
 
 Additionally, you get some different bonuses if you [subscribe to my Patreon](https://www.patreon.com/seiyria). These rewards are definitely not finalized, so if you have suggestions, feel free to mention it!
