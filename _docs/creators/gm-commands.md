@@ -29,6 +29,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@resetdungeon` | `@resetdungeon <map> <seed?>` | Reset the specified map dungeon with the given seed, or pick one if not specified. |
 | `@saveplayers` | `@saveplayers` | Save all players currently in the game. |
 | `@searchitems` | `@searchitems <query>` | Search the item database for items that partially match `query`. |
+| `@spellmod` | `@spellmod <spell|"list"> <multiplier>` | Set the global potency override for `spell` to `potency`. If `list` is specified, show all overrides. |
 | `@startevent` | `@startevent <event>` | Start the given event, or stop it if it's already active. |
 | `@summon` | `@summon <player>` | Summon the given player to your current location.
 | `@teleport` | `@teleport <x> <y> <map?>` | Teleport to x,y on the current map. If `map` is specified, teleport to those coordinates on that map instead. |
