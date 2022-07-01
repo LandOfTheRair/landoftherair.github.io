@@ -37,6 +37,7 @@
   docs:
     - modkit
     - map-making
+    - debug-commands
     - gm-commands
 
 - title: Other
