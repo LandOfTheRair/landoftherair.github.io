@@ -25,6 +25,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@gg` | `@gg` | Quickly kill yourself. |
 | `@item` | `@item <itemname>` | Create an item in your right hand. | 
 | `@kill` | `@kill <targetish>` | Kill the first creature matching your target. |
+| `@modcreature` | `@modcreature <targetish> <creatureish>` | Modify the target with the properties specified; these need to be formatted in a JSON-friendly format, such as `@modcreature stats.hp=1000` |
 | `@moditem` | `@moditem <itemish>` | Modify the item in your right hand with the properties specified; these need to be formatted in a JSON-friendly format, such as `@moditem trait.name=CoolTrait trait.level=2` |
 | `@resetdungeon` | `@resetdungeon <map> <seed?>` | Reset the specified map dungeon with the given seed, or pick one if not specified. |
 | `@saveplayers` | `@saveplayers` | Save all players currently in the game. |
