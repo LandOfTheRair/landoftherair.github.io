@@ -4,6 +4,18 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
+## Creating a Character
+
+Like most multiplayer RPGs, Land of the Rair allows you to have multiple characters. When you first log in, you'll find yourself in the "lobby", a global chat hub where you can talk with other online players, check the message of the day, view your characters, and enter the game to play them. To get in the game, you must first roll a character. In particular, you must decide the following:
+
+- name (this is what players will call you by in game)
+- sex (this determines your sprite)
+- class (this determines your playstyle, and talent tree in game, as well as minorly affecting your stats)
+- allegiance (this determines how different in-game factions see you, as well as majorly affecting your stats)
+- specialization (this determines your starting weapon and proficiency in it)
+
+Of note, whilst in game, you can gain skill with any weapon, and modify your stats. This character creator is merely a starting point to your adventure!
+
 ## Getting Started
 
 When you first start the game, you'll find yourself in the tutorial. If you're not into figuring it out for yourself, here is a brief overview of the tutorial. The pillars you start in are a "respawn point" - there are a few in the world. Not many, but if you see one, you know what it's for.
