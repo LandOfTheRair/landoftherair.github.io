@@ -250,7 +250,7 @@ Here, you have to write YAML for your NPC dialogs. This can be as detailed as yo
 
 ### The Menu
 
-![](https://i.imgur.com/ohkucb9.png)
+![](https://i.imgur.com/JwgkHEU.png)
 
 Most of this menu will be straightforward, but there are some important details to know about certain options. Only those options will be covered:
 
@@ -268,7 +268,7 @@ When testing your mod (which you should!), you will first need to hit "Install M
 
 After this, you can Test Mod, which will let you actually get in there and test your maps, content, etc.
 
-![](https://i.imgur.com/slVfaFp.png)
+![](https://i.imgur.com/GbuoWHC.png)
 
 On the left side, you can set the level, map, x/y to force upon all characters for really quick testing. On the right side, you could set "extra" properties if you knew the property you wanted to set. For example, you could set it so any time you log in, you are also the "GM" allegiance, which makes you neutral to all creatures. To do this, you would set the Extra Character Settings to: `{ "allegiance": "GM" }`.
 
