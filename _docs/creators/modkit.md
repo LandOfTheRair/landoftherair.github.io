@@ -5,15 +5,15 @@ permalink: /docs/modkit/
 
 ## Getting Started
 
-_Unfortunately, at this time, the Modkit is Windows only._
+_Unfortunately, at this time, the ModKit is Windows only. You could build it on other platforms if desired, though._
 
-1. [Download the Modkit from GitHub](https://github.com/LandOfTheRair/mod-toolkit/releases/latest) (download `LandOfTheRairModdingTools.zip`).
-1. Unzip the archive, and run `Land of the Rair Modding Tools.exe`.
-1. When the Modkit opens, it will download a bunch of resources. This will cover some, but not all of the resources you will need. These are the essentials to get up and running, though.
+1. [Download the Modkit from GitHub](https://github.com/LandOfTheRair/mod-toolkit-v2/releases/latest/download/LandOfTheRairModdingTools.zip).
+1. Unzip the archive, and run `Land of the Rair ModKit.exe`.
+1. When the ModKit opens, it will download a bunch of resources. This will cover some, but not all of the resources you will need. These are the essentials to get up and running, though.
 
 Upon completion of these steps, you should see something like this:
 
-![](https://i.imgur.com/nZyOJu6.png)
+![](https://i.imgur.com/RrGvzFx.png)
 
 ## The Tabs
 
@@ -29,7 +29,7 @@ NPCs are a fairly complicated interface. There's a few tabs, and a few things to
 
 #### Core Stats
 
-![](https://i.imgur.com/K0G50nR.png)
+![](https://i.imgur.com/jvGdn7S.png)
 
 There are a fair few things set here by default. For example, hostility, alignment, class, allegiance, category, etc. These generally don't need to be changed.
 
@@ -50,9 +50,9 @@ Optional settings:
 - No Corpse - If set, the NPC will not drop a corpse upon death.
 - No Items - If set, the NPC will not drop any items upon death.
 
-#### Skills & Attributes
+#### Traits, Spells & Attributes
 
-![](https://i.imgur.com/gURWcE4.png)
+![](https://i.imgur.com/OS3KXkf.png)
 
 In the left column, you can add any existing trait to an NPC and give it a level.
 
@@ -62,7 +62,7 @@ In the right column, you can add any effect to an NPC for it to spawn with.
 
 #### Gear
 
-![](https://i.imgur.com/fGOZxb4.png)
+![](https://i.imgur.com/vhXlltm.png)
 
 In the left column, you can add items to the NPCs sack for it to spawn with, as well as a weight (see Weighting below).
 
@@ -70,7 +70,7 @@ In the right column, you can add items for specific NPC gear slots for them to s
 
 #### Drops
 
-![](https://i.imgur.com/e24KMLW.png)
+![](https://i.imgur.com/69Ot2hK.png)
 
 In the left column, you can add an item drop to the NPC based on weight (see Weighting below).
 
@@ -80,11 +80,23 @@ In the right column, you can add what item the NPC tans for, if any, and the ski
 
 #### Triggers
 
-![](https://i.imgur.com/ErDwG3W.png)
+![](https://i.imgur.com/zPSGa8x.png)
 
 In the left column, you can add "combat messages" for the NPC to randomly say during combat.
 
 In the right column, you can create sound effects for certain triggers for the NPC. The two supported triggers currently are spawning and leashing (when the NPC goes back to its spawner).
+
+#### Faction Reputation & Summonability
+
+![](https://i.imgur.com/U0WPiXB.png)
+
+In the left column, you can see the faction outlook for this NPC. This determines if they're friendly or not with other factions. This can be easily set by hitting the red/green buttons.
+
+In the second column, you can set how much faction reputation you get for killing this NPC.
+
+In the third column, you can add stat scaling for summoning this creature (used only by creatures that are summoned by spells).
+
+In the fourth column, you can add skill scaling for summoning this creature (used only by creatures that are summoned by spells).
 
 ### Items
 
@@ -92,7 +104,7 @@ Items are fairly straightforward, as most of the fields are ones you'd recognize
 
 #### Core Stats
 
-![](https://i.imgur.com/AbCOGuF.png)
+![](https://i.imgur.com/ZtK37bn.png)
 
 In the left column, you can set the required settings for an item:
 
@@ -105,7 +117,7 @@ In the right column, if applicable, there will be miscellaneous settings that pe
 
 #### Traits, Effects & Requirements
 
-![](https://i.imgur.com/LmpoQB7.png)
+![](https://i.imgur.com/jUr9bM0.png)
 
 In the left column, you can set the pre-set trait for the item.
 
@@ -115,21 +127,21 @@ In the right column, you can set the required class and level for the item.
 
 #### Miscellaneous
 
-![](https://i.imgur.com/ysuoctz.png)
+![](https://i.imgur.com/CIYKBBe.png)
 
 Here, you can choose the cosmetic for an item. If the "Permanent Cosmetic" checkbox is checked, the cosmetic _can not_ be taken out of the item. This should be checked for most items.
 
 ### Droptables
 
-![](https://i.imgur.com/GqWbQuR.png)
+![](https://i.imgur.com/ucC2z9D.png)
 
-After creating at least one map and one item, you can add Droptables. These are how players get map- or region-based loot. In the data files, drop tables are formatted differently, such that there is a list of items per drop table. Here, it made more sense to make the droptables display one item at a time.
+After creating at least one map and one item, you can add Droptables. These are how players get map- or region-based loot.
 
-You can choose either a map or region drop (based on the maps you've created), an item (based on your items), a chance to drop (if you set it to 100, it will drop 1/100 of the time), whether the player luck bonus should be used (this makes it easier to find items), and if the item only drops on a certain holiday.
+You can choose either a map or region drop (based on the maps you've created), an item (based on your items), a chance to drop (if you set it to 100, it will drop 1/100 of the time), whether the player luck bonus should be used (this makes it easier to find items), and if the item only drops on a certain holiday. You can also choose if it should be a global droptable, which means it will show up in every region.
 
 ### Recipes
 
-![](https://i.imgur.com/zS1Oegk.png)
+![](https://i.imgur.com/fax97QJ.png)
 
 After creating at least one item, you can add Recipes, which are used by tradeskills to let players refine items into other items.
 
@@ -159,7 +171,7 @@ Ingredient options:
 
 ### Spawners
 
-![](https://i.imgur.com/GNB2O8W.png)
+![](https://i.imgur.com/MUFSE4o.png)
 
 After adding NPCs, you can add spawners for them to utilize in a map. There are a lot of properties here to consider, but most of them should be fairly straightforward:
 
@@ -193,7 +205,7 @@ The right column lets you choose NPCs to spawn at this spawner, based on weight 
 
 ### Quests
 
-![](https://i.imgur.com/aPKIzcN.png)
+![](https://i.imgur.com/wmvYuJG.png)
 
 In the left column, you can set the quest name, description, and giver. The description and giver are display only for the in-game quest log. You can also toggle whether the quest is a repeatable quest (you can repeat it immediately upon completion) or a daily quest (you can do it at most once per day).
 
@@ -207,20 +219,20 @@ When making an NPC Script, there are a few tabs, although two of them will event
 
 #### Core Stats
 
-![](https://i.imgur.com/uj74qzL.png)
+![](https://i.imgur.com/d9XQRPR.png)
 
 The most important thing here to set is the Map NPC Tag, which determines which NPC to bind this script to on the map. Everything else set here is handled the same as in the NPC editor.
 
 #### Behaviors
 
-![](https://i.imgur.com/MV4NOsm.png)
+![](https://i.imgur.com/dYeQM7r.png)
 
 Here, you have to write YAML for your NPC behaviors. The most common NPC behaviors will be shops, but there are examples for everything! Check [here](https://github.com/LandOfTheRair/LandOfTheRair/tree/master/server/src/models/world/ai/behaviors) for a listing of behaviors, and you can find examples by searching [here](https://github.com/LandOfTheRair/Content/tree/master/npcScripts).
 
 
 #### Dialog
 
-![](https://i.imgur.com/0J6ypMX.png)
+![](https://i.imgur.com/2XwfzDk.png)
 
 Here, you have to write YAML for your NPC dialogs. This can be as detailed as you would like, but should be copy-pastable from other examples found [here](https://github.com/LandOfTheRair/Content/tree/master/npcScripts). When in doubt, ask!
 
@@ -244,7 +256,7 @@ When testing your mod (which you should!), you will first need to hit "Install M
 
 After this, you can Test Mod, which will let you actually get in there and test your maps, content, etc.
 
-![](https://i.imgur.com/WiMcGki.png)
+![](https://i.imgur.com/slVfaFp.png)
 
 On the left side, you can set the level, map, x/y to force upon all characters for really quick testing. On the right side, you could set "extra" properties if you knew the property you wanted to set. For example, you could set it so any time you log in, you are also the "GM" allegiance, which makes you neutral to all creatures. To do this, you would set the Extra Character Settings to: `{ "allegiance": "GM" }`.
 
