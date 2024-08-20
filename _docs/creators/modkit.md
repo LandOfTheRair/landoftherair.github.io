@@ -15,6 +15,18 @@ Upon completion of these steps, you should see something like this:
 
 ![](https://i.imgur.com/RrGvzFx.png)
 
+## Loading the Base Game Content
+
+If you want to check the base game content out, make changes or tweaks, or test it, this section is important!
+
+If you intend to _contribute fixes back_, you should set up and install [git](https://git-scm.com/), [clone this repository](https://github.com/LandOfTheRair/Content), and have a GitHub account.
+
+If you _only_ want to test, you can download [this file](https://github.com/LandOfTheRair/Content/blob/master/mods/BaseGameContent.rairmod).
+
+Either way, you will have a `BaseGameContent.rairmod` file available to you. From here, Go into the Actions menu and import the mod. You can follow the rest of this guide for usage or testing as normal.
+
+It will automatically sync changes back to this file, which you can use to easily submit pull requests on GitHub, too! 
+
 ## The Tabs
 
 ### Maps
