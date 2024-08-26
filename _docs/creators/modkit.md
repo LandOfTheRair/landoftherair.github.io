@@ -88,6 +88,7 @@ function query(mod) {
 
 - [AlaSQL](https://github.com/AlaSQL/alasql/wiki) is used to do iteration
 - [ModKit.ts](https://github.com/LandOfTheRair/mod-toolkit-v2/blob/main/src/interfaces/modkit.ts) can show you the layout of the ModKit, although they're mapped differently - `npcs: INPCDefinition[]` becomes: `{ type: 'npc', data: ... }`
+- You can export your query by putting `INTO CSV('file.csv')` before your `FROM` clause.
 - When querying, you are _always_ querying from `?`. There are no tables. All items are in one "table".
 
 Example Query (count all ModKit entries by type):
