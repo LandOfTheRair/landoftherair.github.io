@@ -18,6 +18,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@dupe` | `@dupe` | Duplicate your right hand to your left. | 
 | `@execj` | `@execj <code>` | Evaluate JS code. You might want to read the docs on this one. |
 | `@examinecreature` | `@examinecreature <targetish>` | Examine a creature's stats and other data. | 
+| `@examineground` | `@examineground <itemClass?> <numSlot?> <propsish?>` | Examine an item on the ground | 
 | `@examineitem` | `@examineitem` | Examine the item in your right hand. This will only show modified properties, not the base item data. |
 | `@freezeai` | `@freezeai` | Freeze or unfreeze the AI for the game. |
 | `@gainskill` | `@gainskill <skill> <amt>` | Gain an amount of skill to level it up. | 
@@ -26,6 +27,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@item` | `@item <itemname>` | Create an item in your right hand. | 
 | `@kill` | `@kill <targetish>` | Kill the first creature matching your target. |
 | `@modcreature` | `@modcreature <targetish> <creatureish>` | Modify the target with the properties specified; these need to be formatted in a JSON-friendly format, such as `@modcreature stats.hp=1000` |
+| `@modground` | `@modground <itemClass> <numSlot> <propsish>` | Modify an item on the ground. Keep in mind that to access the item, you must modify `item.X` instead of how `@moditem` works. |
 | `@moditem` | `@moditem <itemish>` | Modify the item in your right hand with the properties specified; these need to be formatted in a JSON-friendly format, such as `@moditem trait.name=CoolTrait trait.level=2` |
 | `@resetdungeon` | `@resetdungeon <map> <seed?>` | Reset the specified map dungeon with the given seed, or pick one if not specified. |
 | `@saveplayers` | `@saveplayers` | Save all players currently in the game. |
