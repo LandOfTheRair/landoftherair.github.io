@@ -3,63 +3,84 @@ layout: default
 ---
 
 <div class="header-container jumbotron">
-    <div class="container">
-        <h1>A retro-style MUD for the new age</h1>
-        <p class="desc">
-          Simple and engaging - monsters to kill, quests to complete. You don't even need a terminal to play.
-          <br>
-          <span class="factoid"></span>
-        </p>
-        
-        <p>
-          <a class="btn btn-primary btn-lg" href="https://play.rair.land" role="button">
-            Begin your quest
-          </a>
-        </p>
-    </div>
+  <div class="container">
+    <h1>A retro-style MUD for the new age</h1>
+    <p class="desc">
+      Simple and engaging - monsters to kill, quests to complete. You don't even need a terminal to play.
+      <br>
+      <span class="factoid"></span>
+    </p>
+
+    <p>
+      <a class="btn btn-primary btn-lg" href="https://play.rair.land" role="button">
+        Begin your quest
+      </a>
+    </p>
+  </div>
 </div>
 
 
 <div class="container">
 
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="header-light regular-pad">What exactly is Land of the Rair?</h2>
-            <blockquote>
-              <p>The Land of the Rair is a game inspired by the MUDs of olde. You begin as an intrepid adventurer who joins a vast new world.
-                You start your adventure with a tunic and a weapon. Kill monsters, solve puzzles,
-                and defeat those who oppose the ways of the realm. Stake your claim in the world and find your place amongst the ranks of the greatest heroes to travel the land.</p>
-            </blockquote>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="header-light regular-pad">What exactly is Land of the Rair?</h3>
+      <blockquote>
+        <p>The Land of the Rair is a game inspired by the MUDs of olde. You begin as an intrepid adventurer who joins a
+          vast new world.
+          You start your adventure with a tunic and a weapon. Kill monsters, solve puzzles,
+          and defeat those who oppose the ways of the realm. Stake your claim in the world and find your place amongst
+          the ranks of the greatest heroes to travel the land.</p>
+      </blockquote>
     </div>
+  </div>
 
-    <hr>
+  <hr>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <h1 class="text-center">
-              <img src="{{ "/img/scroll.png" | prepend: site.baseurl }}" width="64" height="64" />
-            </h1>
-            <h3 class="text-center">Online or Desktop</h3>
-            <p>You can play in your web browser from anywhere. Works best in Chrome and Firefox. <a href="{{ "/download/" | prepend: site.baseurl }}">Or, download and play on Windows</a>.
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center">
-              <img src="{{ "/img/sword.png" | prepend: site.baseurl }}" width="64" height="64" />
-            </h1>
-            <h3 class="text-center">Play your way</h3>
-            <p>Hone your combat skills killing monsters or craft your way to the top of the marketboard.</p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center">
-              <img src="{{ "/img/coin.png" | prepend: site.baseurl }}" width="64" height="64" />
-            </h1>
-            <h3 class="text-center">Cost-effective</h3>
-            <p>Free to play, but never pay to win. Subscribe or purchase individual boosts for your account for additional perks.</p>
-        </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h1 class="text-center">
+        <img src="{{ " /img/scroll.png" | prepend: site.baseurl }}" width="64" height="64" />
+      </h1>
+      <h3 class="text-center">Online or Desktop</h3>
+      <p>You can play in your web browser from anywhere. Works best in Chrome and Firefox. <a href="{{ " /download/" |
+          prepend: site.baseurl }}">Or, download and play on Windows</a>.
+      </p>
     </div>
+    <div class="col-sm-4">
+      <h1 class="text-center">
+        <img src="{{ " /img/sword.png" | prepend: site.baseurl }}" width="64" height="64" />
+      </h1>
+      <h3 class="text-center">Play your way</h3>
+      <p>Hone your combat skills killing monsters or craft your way to the top of the marketboard.</p>
+    </div>
+    <div class="col-sm-4">
+      <h1 class="text-center">
+        <img src="{{ " /img/coin.png" | prepend: site.baseurl }}" width="64" height="64" />
+      </h1>
+      <h3 class="text-center">Cost-effective</h3>
+      <p>Free to play, but never pay to win. Subscribe or purchase individual boosts for your account for additional
+        perks.</p>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="header-light regular-pad">Here's what players have to say!</h3>
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    {% for page in site.data.testimonials %}
+    <div class="col-xs-12 col-sm-4">
+      <blockquote>
+        <p>{{ page.message }}</p>
+        <footer class="text-primary">Sage</footer>
+      </blockquote>
+    </div>
+    {% endfor %}
+  </div>
 
 </div>
 
