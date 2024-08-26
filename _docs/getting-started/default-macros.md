@@ -43,8 +43,8 @@ Macro | Syntax | Description
 `use`                 | `use <hand>` | Use the item in `hand`. Supports instant use.
 `wield`               | `wield <slotNumber|itemType>` | Take an item from your belt and put it in the first available hand. Supports instant use.
 `sheathe`             | `sheathe <left|right>` | Put the item in your left or right hand into your belt. Supports instant use.
-`take`                | `take <itemClass|itemName> <from sack|belt|pouch>` | Take an item that matches itemClass or itemName from the specified container and put it into the first available hand.
-`place`               | `place <itemClass|itemName> <in sack|belt|pouch>` | Take an item that matches itemClass or itemName from either the right or left hand and put it into the specified container.
+`take`                | `take <itemClass|itemName> <from sack|belt|pouch|ground>` | Take an item that matches itemClass or itemName from the specified container and put it into the first available hand.
+`place`               | `place <itemClass|itemName> <in sack|belt|pouch|ground>` | Take an item that matches itemClass or itemName from either the right or left hand and put it into the specified container.
 `wait`                | | Do nothing for a tick.
 `.`                   | | Repeat the last command.
 
