@@ -1,49 +1,57 @@
 - title: Getting Started
   docs:
-  - home
-  - welcome-to-rylt
-  - tips-tricks
-  - faq
-  - default-macros
-  - default-keybinds
-  - party-information
-  - gear-augmentation
-  - weapon-information
-  - stat-information
-  - ancient-knowledge
-  
+    - home
+    - welcome-to-rylt
+    - tips-tricks
+    - faq
+    - default-macros
+    - default-keybinds
+    - party-information
+    - gear-augmentation
+    - weapon-information
+    - stat-information
+    - ancient-knowledge
+
 - title: Classes
   docs:
-  - mage
-  - thief
-  - healer
-  - warrior
- 
+    - mage
+    - thief
+    - healer
+    - warrior
+
 - title: Tradeskills
   docs:
-  - alchemy
-  - metalworking
-  - runewriting
-  - spellforging
-  - survival
-  
+    - alchemy
+    - gemcrafting
+    - metalworking
+    - spellforging
+    - weavefabricating
+
 - title: Holidays
   docs:
-  - halloween
-  - thanksgiving
-  - christmas
+    - halloween
+    - thanksgiving
+    - christmas
 
 - title: Creators
   docs:
     - modkit
+    - modkit-droptables
+    - modkit-items
+    - modkit-maps
+    - modkit-npcs
+    - modkit-npcscripts
+    - modkit-quests
+    - modkit-recipes
+    - modkit-spawners
     - map-making
     - debug-commands
     - gm-commands
 
 - title: Other
   docs:
-  - subscriber-benefits
-  - wiki-links
-  - code-of-conduct
-  - privacy
-  - credits
+    - subscriber-benefits
+    - wiki-links
+    - code-of-conduct
+    - privacy
+    - credits
