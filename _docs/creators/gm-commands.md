@@ -29,6 +29,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@modcreature` | `@modcreature <targetish> <creatureish>` | Modify the target with the properties specified; these need to be formatted in a JSON-friendly format, such as `@modcreature stats.hp=1000` |
 | `@modground` | `@modground <itemClass> <numSlot> <propsish>` | Modify an item on the ground. Keep in mind that to access the item, you must modify `item.X` instead of how `@moditem` works. |
 | `@moditem` | `@moditem <itemish>` | Modify the item in your right hand with the properties specified; these need to be formatted in a JSON-friendly format, such as `@moditem trait.name=CoolTrait trait.level=2` |
+| `@respawnnpc` | `@respawnnpc <nameish>` | Respawn an NPC in your current map with a name that contains `nameish`. |
 | `@resetdungeon` | `@resetdungeon <map> <seed?>` | Reset the specified map dungeon with the given seed, or pick one if not specified. |
 | `@saveplayers` | `@saveplayers` | Save all players currently in the game. |
 | `@searchitems` | `@searchitems <query>` | Search the item database for items that partially match `query`. |
