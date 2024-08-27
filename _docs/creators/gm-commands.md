@@ -35,7 +35,8 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@searchitems` | `@searchitems <query>` | Search the item database for items that partially match `query`. |
 | `@spellmod` | `@spellmod <spell/"list"> <multiplier>` | Set the global potency override for `spell` to `potency`. If `list` is specified, show all overrides. |
 | `@startevent` | `@startevent <event>` | Start the given event, or stop it if it's already active. |
-| `@summon` | `@summon <player>` | Summon the given player to your current location.
+| `@summon` | `@summon <player>` | Summon the given player to your current location. |
+| `@takeover` | `@takeover <npcish>` | Take over the NPC, allowing you to watch the NPC as if you were it. |
 | `@teleport` | `@teleport <x> <y> <map?>` | Teleport to x,y on the current map. If `map` is specified, teleport to those coordinates on that map instead. |
 | `@teleportto` | `@teleportto <targetish>` | Teleport to the first creature or player matching your target. |
 | `@togglemapblock` | `@togglemapblock <map>` | Block the specified map from being entered, and kick out any players in that map. |
