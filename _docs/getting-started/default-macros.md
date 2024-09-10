@@ -31,7 +31,9 @@ Macro | Syntax | Description
 `face`                | `face <dir>` | Face N, E, S, or W.
 `empty`               | `empty <left|right>` | Empty the bottle in your chosen hand.
 `fill`                | `fill <left|right>` | Fill the bottle in your chosen hand based on where you are.
-`look at`             | `look at <target>` | Get a description of the target.
+`consider`            | `consider <target>` | Get a description of the target.
+`look`                | `look` | Look at the ground, not searching anything.
+`look`                | `look <dir>` | Look in a direction, examining the specifics of that object. Doors will tell you required key descriptions, etc.
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
 `close`               | `close <dir>` | Close the door either N, S, E, or W from you.
 `write`               | `write <message>` | While holding an ink pot and an empty scroll, you can add your own message to the scroll.
