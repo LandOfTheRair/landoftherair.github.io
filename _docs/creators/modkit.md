@@ -7,8 +7,7 @@ permalink: /docs/modkit/
 
 _Unfortunately, at this time, the ModKit is Windows only. You could build it on other platforms if desired, though._
 
-1. [Download the Modkit from GitHub](https://github.com/LandOfTheRair/mod-toolkit-v2/releases/latest/download/LandOfTheRairModdingTools.zip).
-1. Unzip the archive, and run `Land of the Rair ModKit.exe`.
+1. [Download the Modkit from GitHub](https://github.com/LandOfTheRair/mod-toolkit-v2/releases/latest/download/LandOfTheRairModdingTools.exe).
 1. When the ModKit opens, it will download a bunch of resources. This will cover some, but not all of the resources you will need. These are the essentials to get up and running, though.
 
 Upon completion of these steps, you should see something like this:
