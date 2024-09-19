@@ -32,6 +32,7 @@ Macro | Syntax | Description
 `empty`               | `empty <left|right>` | Empty the bottle in your chosen hand.
 `fill`                | `fill <left|right>` | Fill the bottle in your chosen hand based on where you are.
 `consider`            | `consider <target>` | Get a description of the target.
+`trade enable`        | `trade enable` | Turn on trading. This will let you drag & drop items onto other players, and them onto you.
 `look`                | `look` | Look at the ground, not searching anything.
 `look`                | `look <dir>` | Look in a direction, examining the specifics of that object. Doors will tell you required key descriptions, etc.
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
