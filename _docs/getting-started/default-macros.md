@@ -37,6 +37,7 @@ Macro | Syntax | Description
 `look`                | `look <dir>` | Look in a direction, examining the specifics of that object. Doors will tell you required key descriptions, etc.
 `open`                | `open <dir>` | Open the door either N, S, E, or W from you.
 `close`               | `close <dir>` | Close the door either N, S, E, or W from you.
+`pettarget`           | `pettarget <creatureish>` | Force your pets to target a creature matching `creatureish`. If nothing is specified or found, agro will be reset.
 `write`               | `write <message>` | While holding an ink pot and an empty scroll, you can add your own message to the scroll.
 `show stats`          | `show stats <all|leader>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics. `show stats leader` will show you your current leaderboard stats.
 `show skills`         | | Get a listing of all of your skills.
