@@ -132,6 +132,21 @@ Macro | Syntax | Description
 `~RtB` | `~RtB` | Move item from right hand to belt.
 `~RtR` | `~RtR` | Move item from right hand to left hand.
 
+All containers:
+
+- `B` - belt
+- `C` - coin slot
+- `D` - demi-magic pouch
+- `E` - equipment
+- `G` - ground
+- `K` - material storage
+- `L` - left hand
+- `M` - merchant
+- `O` - merchant buyback
+- `R` - right hand
+- `S` - sack
+- `W` - locker
+
 ## Advanced Macro Substitutions
 
 Macro substitutions can be used to find creatures that meet a certain criteria for macro targetting. For example, healing the weakest player, or attacking the farthest NPC (potentially a runner). These can be used in any macro that targets a creature, such as with `chase $farthest` or `cast magicmissile $randomnpc`.
