@@ -23,6 +23,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@freezeai` | `@freezeai` | Freeze or unfreeze the AI for the game. |
 | `@gainskill` | `@gainskill <skill> <amt>` | Gain an amount of skill to level it up. | 
 | `@gaintradeskill` | `@gainskill <skill> <amt>` | Gain an amount of tradeskill to level it up. |
+| `@gearup` | `@gearup <stat> <level>` | Equip the best gear for `level` based on the given `stat`.
 | `@gg` | `@gg` | Quickly kill yourself. |
 | `@item` | `@item <itemname>` | Create an item in your right hand. | 
 | `@kill` | `@kill <targetish>` | Kill the first creature matching your target. |
