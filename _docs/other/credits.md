@@ -8,10 +8,11 @@ Thanks to all of the following for the creation of this game:
 * @photonstorm - Phaser.io - the visual map rendering of the game
 * Game Icons - gameicons.net - Macro and other icons
 * Brad Lineberger - Kingdom of Drakkar - game inspiration, art, and nostalgia music (thank you!)
+* Rotness - music
+  * Town Theme
 * Antti Luode - music
   * Bustrip (Dungeon)
   * Back In The Country (Wilderness)
-  * 5 Minutes (Town)
   * ATL (Combat)
 
 ## Player Created Content
