@@ -155,6 +155,7 @@ Here is a full listing of each substitution:
 
 Substitution | Description
 ------------ | -----------
+`$target`           | Replace with the targetted NPC. This is particularly useful for macros or commands that take a target in the middle of their command, rather than afterwards (as is the case with _almost_ everything).
 `$firstnpc`         | Replace with the first possible NPC.
 `$firstplayer`      | Replace with the first possible player (excluding yourself).
 `$first`            | Replace with the first possible creature.
