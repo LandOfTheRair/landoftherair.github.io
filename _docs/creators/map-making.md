@@ -126,16 +126,30 @@ These must be on the "Interactables" layer, and must have the type "Locker".
 
 These must be on the "Interactables" layer, and must have the type "StairsUp", "StairsDown", "Teleport", "ClimbUp", "ClimbDown", or "Fall".
 
+##### Teleport Properties
+
 - `teleportMap` should be set to the map to teleport to. Prefer to use tagging if possible.
 - `teleportX` should be set to the x position on the map to teleport to. Prefer to use tagging if possible.
 - `teleportY` should be set to the y position on the map to teleport to. Prefer to use tagging if possible.
 - `teleportTagMap` should be set to the tag of the map to teleport to (preferred over teleportMap)
 - `teleportTag` should be set to the tag of the location to teleport to (preferred over teleportX/Y)
 - `teleportTagRef` can be set to a reference tag for teleporting to this teleport, useful for stairs or other two-way teleports (optional)
+
+##### Usage Requirements
+
 - `requireHeld` can be set to an item name if it's needed to get through.
+- `requireParty` can be set to true or false if the player needs to be in a party to use the teleport
+- `requireHoliday` can be set to a holiday name if the teleport only works during that holiday
 - `requireQuest` can be set to require a quest be started for a player (always true if the quest is completed)
 - `requireQuestProgress` can be set to require a key in the quest data be true (always true if the quest is completed)
 - `requireQuestComplete` can be set to require a quest be complete for a player
+- `requireWorldInit` can be set to true to require the world to fully initialize before allowing entry (used for Solokar/Orikurnis)
+- `requireClass` can be set to a class name if the teleport only works for that class
+- `requireTester` can be set to true or false if the teleport only works for testers
+- `subscriberOnly` can be set to true or false if the teleport only works for subscribers
+
+##### Extra Properties
+
 - `damagePercent` can be set to a number 0..100 if the `type` is Fall
 - `applyEffect` can be set to a valid effect name if the `type` is Teleport
 
@@ -164,9 +178,18 @@ These must be on the "Spawners" layer. No type is required.
 - `randomWalkRadius` is the number of tiles in any direction from the spawner the creature will naturally walk (default: 10)
 - `leashRadius` is the number of tiles in any direction from the spawner the creature will chase a hostile target (default: 20)
 - `respawnRate` is the number of ticks (half-seconds) it takes for a creature to spawn from this spawner (default: 240)
-- `initialSpawn` is the number of creatures spawned immediately when the
-- `script` set to the script for the spawner. For lairs, it should be set to `global/lair`.
+- `initialSpawn` is the number of creatures spawned immediately when the spawner is created (default: 1)
+- `maxSpawn` is the maximum number of creatures that can be spawned from this spawner (default: 1)
+- `tag` set to the tag for the spawner. For lairs, it should be set to `Global Lair`.
 - `lairName` set to the name of the lair creature to spawn (optional: for lairs only)
+
+##### Lair Extras
+
+- `shouldEatTier` - whether or not the lair creature also eats the player (set to 1/2/3, etc for the tier of xp/skill reduction on death)
+- `shouldStrip` - whether or not the lair creature will strip items from players
+- `stripRadius` - set to 0 to strip on the same tile, or 1+ to strip in a radius
+- `stripX` - x coordinate of the strip zone (optional, will strip to current X if unspecified)
+- `stripY` - y coordinate of the strip zone (optional, will strip to current Y if unspecified)
 
 #### NPCs
 
