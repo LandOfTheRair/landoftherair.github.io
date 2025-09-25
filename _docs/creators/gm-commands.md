@@ -55,6 +55,7 @@ If you're here, you're probably using the Mod Kit and running a local server whe
 | `@saveplayers` | `@saveplayers` | Save all players currently in the game. |
 | `@searchitems` | `@searchitems <query>` | Search the item database for items that partially match `query`. |
 | `@send` | `@send <playerish> x y <map>` | Send a player in view to a specific place. |
+| `@setbonusmod` | `@setbonusmod <map>` | Turn on bonus XP/Skill gain for a map. |
 | `@spellmod` | `@spellmod <spell/"list"> <multiplier>` | Set the global potency override for `spell` to `potency`. If `list` is specified, show all overrides. |
 | `@startevent` | `@startevent <event>` | Start the given event, or stop it if it's already active. |
 | `@summon` | `@summon <player>` | Summon the given player to your current location. |
