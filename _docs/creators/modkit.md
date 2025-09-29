@@ -60,6 +60,19 @@ This will open the pinpoint tool, which lets you look for all usages of a certai
 
 ![](https://i.imgur.com/4RaSCvX.png)
 
+#### Export Partial Mod
+
+Exporting a partial mod means you're working off a base mod, but want to only export your changes to it. This can then be loaded additively using "import mod" later. 
+
+_note:_ If you're working off of the base game content, download `https://play.rair.land/assets/content/_output/simplemods/BaseGameContent.rairmod.json`, rename it to `BaseGameContent.rairmod`
+
+How this works:
+
+1. First, you make your mod changes
+1. Second, you export a partial mod to backup your changes
+1. Third, a box will pop up to select a mod - this is the mod you're comparing _against_ - this should be the base mod (in the case of base game content, it's `BaseGameContent.rairmod`)
+1. Fourth, a box will pop up to save a mod - this is where you want to save the patch file - it will save as a `rairmodpatch` which can then be shared with the original mod creator
+
 #### Query
 
 This will open the query tool, which lets you query the entire mod using SQL or JS, and generate custom information layouts based on that.
