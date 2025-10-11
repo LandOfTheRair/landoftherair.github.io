@@ -261,6 +261,7 @@ These must be on the "NPCs" layer. No type is required. If a name is not specifi
 These are in no particular order, but in order to make it easier on both of us. When in doubt, ask, or check an existing map to see how it is done there.
 
 - Maps need 4 buffer tiles on each of the edges. The first tile you can place is at 4,4.
+- Do not flip or rotate any sprites. It will not render correctly.
 - Do not make maps greater than 200x200. You do not have the patience nor the time to fill it properly with the details, especially if it is your first map. Start small, expand if you need to. Also, large maps do not work well within the game engine - 250x250 (Frostlands) is the largest map currently, and while I would like to push the boundaries, it requires testing.
 - When placing walls, do not transition directly from one wall into another (ie, gray cave to gold cave).
 - Do not use too many terrain/wall tiles in an area. If you have more than 3 unique walls in your zone, you probably are using too many. Consistency is key.
