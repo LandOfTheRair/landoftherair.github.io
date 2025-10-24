@@ -106,6 +106,10 @@ For some specific objects, there is additional configuration required:
 
 These must be on the "OpaqueDecor" layer, and must have the type "SecretWall".
 
+#### Passable Walls
+
+These must be on the "OpaqueDecor" layer, and must have the type "PassableWall".
+
 #### Event Sources
 
 These must be on the "Interactables" layer, and must have the type "EventSource".
