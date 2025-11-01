@@ -41,6 +41,7 @@ Macro | Syntax | Description
 `write`               | `write <message>` | While holding an ink pot and an empty scroll, you can add your own message to the scroll.
 `show stats`          | `show stats <all|leader>` | Get a listing of all or some of your stats. `show stats all` will give you everything, whereas `show stats` will give you the basics. `show stats leader` will show you your current leaderboard stats.
 `show skills`         | | Get a listing of all of your skills.
+`show traits`         | | Get a listing of all of your traits.
 `restore`             | | Revive yourself when you're dead.
 `break`               | `break <hand>` | Break the item in your left or right hand. Permanent, irreversible, and only works if the item is yours.
 `cast`                | `cast <spell>` | Cast `spell`.
