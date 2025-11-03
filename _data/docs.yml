@@ -44,6 +44,7 @@
     - modkit-recipes
     - modkit-spawners
     - map-making
+    - itemization
     - debug-commands
     - gm-commands
 
